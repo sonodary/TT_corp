@@ -10,6 +10,7 @@ import enBusiness from '../data/en/business.json';
 import enNews from '../data/en/news.json';
 import enRecruit from '../data/en/recruit.json';
 import enContact from '../data/en/contact.json';
+import enPositions from '../data/en/positions.json';
 
 // -- Import Japanese JSON files
 import jaHome from '../data/ja/home.json';
@@ -22,6 +23,17 @@ import enHeader from '../data/en/header.json';
 import enFooter from '../data/en/footer.json';
 import jaHeader from '../data/ja/header.json';
 import jaFooter from '../data/ja/footer.json';
+import jaPositions from '../data/ja/positions.json';
+
+const jaRecruitMerged = {
+    ...jaRecruit,
+    positions: jaPositions
+  };
+
+const enRecruitMerged = {
+    ...enRecruit,
+    positions: enPositions
+  };
 
 i18n
   .use(initReactI18next)
@@ -34,7 +46,7 @@ i18n
         company: enCompany,
         business: enBusiness,
         news: enNews,
-        recruit: enRecruit,
+        recruit: enRecruitMerged,
         contact: enContact
       },
       ja: {
@@ -44,7 +56,7 @@ i18n
         company: jaCompany,
         business: jaBusiness,
         news: jaNews,
-        recruit: jaRecruit,
+        recruit: jaRecruitMerged,
         contact: jaContact
       }
     },

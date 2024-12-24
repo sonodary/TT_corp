@@ -1,0 +1,13 @@
+.contactHero {
+    position: relative;
+    height: 40vh;
+    background: url('../../../public/assets/images/contact/contact_bg.jpg') center/cover no-repeat;
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}

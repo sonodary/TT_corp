@@ -1,6 +1,6 @@
 // src/pages/News/NewsList.tsx
-
 import React, { useEffect, useState } from 'react';
+import { Container, Typography, Grid2, Card, CardContent, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Layout/Header';
@@ -26,33 +26,50 @@ const NewsList: React.FC = () => {
   const [newsData, setNewsData] = useState<NewsItem[]>([]);
 
   useEffect(() => {
-    // Load news from local JSON
-    import('../../data/newsList.json')
-      .then((data) => {
-        setNewsData(data.default);
+    const lang = i18n.language === 'ja' ? 'ja' : 'en';
+    import(`../../data/newsList.json`)
+      .then((mod) => {
+        setNewsData(mod.default);
       })
-      .catch((error) => console.error('Error loading newsList.json:', error));
-  }, []);
+      .catch((err) => console.error('Error loading newsList:', err));
+  }, [i18n.language]);
 
   return (
     <>
       <Header />
-      <main style={{ padding: '2rem' }}>
-        <h1>{t('header')}</h1>
-        <h2>{t('listHeader')}</h2>
-        <ul>
-          {newsData.map((item) => (
-            <li key={item.id} style={{ marginBottom: '1rem' }}>
-              <p>{item.date}</p>
-              <p>{item.tag}</p>
-              {/* Show the title based on current language */}
-              <Link to={`/news/${item.id}`}>
-                {i18n.language === 'ja' ? item.title.ja : item.title.en}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </main>
+      <Container maxWidth="lg" sx={{ py: 8 }}>
+        <Typography variant="h4" sx={{ color: '#c00', fontWeight: 700, mb: 4 }}>
+          {t('header')} {/* e.g. "News" */}
+        </Typography>
+
+        <Grid2 container spacing={4}>
+        {newsData.map((item) => (
+            <Grid2 size={{xs:12}} key={item.id}>
+            <Card>
+                <CardContent>
+                <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>
+                    {item.date}
+                </Typography>
+                <Typography variant="caption" display="block" gutterBottom>
+                    {item.tag}
+                </Typography>
+                <Typography variant="body1" sx={{ marginBottom: 1 }}>
+                    {i18n.language === 'ja' ? item.title.ja : item.title.en}
+                </Typography>
+                <Button
+                    variant="text"
+                    sx={{ color: '#c00', fontWeight: 700 }}
+                    component={Link}
+                    to={`/news/${item.id}`}
+                >
+                    {t('More')} {/* e.g. "Read More" */}
+                </Button>
+                </CardContent>
+            </Card>
+            </Grid2>
+        ))}
+        </Grid2>
+      </Container>
       <Footer />
     </>
   );

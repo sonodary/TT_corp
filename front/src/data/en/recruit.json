@@ -1,11 +1,20 @@
 {
-    "header": "Recruit",
-    "messageTitle": "Join Our Team",
-    "messageBody": "We want people who love travel, culture, and new ideas.",
-    "valuesTitle": "Our Values",
-    "value1": "Teamwork",
-    "value2": "Innovation",
-    "value3": "Global Mindset",
+    "header": "Join Our Mission",
+    "messageTitle": "What We're Striving For",
+    "messageBody": "We aim to reshape Japan’s tourism industry by embracing local communities and international travelers alike. Join us in bridging cultures and creating unforgettable experiences for everyone.",
+    "valuesTitle": "Our Core Values",
+    "value1": {
+      "title": "Teamwork",
+      "description": "We believe that collaboration across diverse backgrounds fuels innovation."
+    },
+    "value2": {
+      "title": "Innovation",
+      "description": "We constantly challenge ourselves to think differently, adapt, and stay ahead."
+    },
+    "value3": {
+      "title": "Global Mindset",
+      "description": "We embrace multiple perspectives and cultural exchanges to enrich our offerings."
+    },
     "openPositionsTitle": "Open Positions",
     "ctaText": "Interested in working with us?"
   }

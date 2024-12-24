@@ -1,25 +1,27 @@
 {
     "companySection": {
-      "title": "Leading Japan's tourism, bridging culture to future generations.",
-      "subtitle": "Bringing more excitement to inbound travel, uplifting Japan further.",
+      "title": "Leading Japan's Tourism to the Next Level",
+      "subtitle": "Immerse yourself in the vibrant culture and breathtaking landscapes that define Japan's unique charm. We aim to connect generations and foster a thriving tourism ecosystem.",
       "buttonLabel": "More"
     },
     "businessSection": {
-      "title": "Business",
-      "description": "We offer a wide range of tourism and inbound services.",
+      "title": "Our Services",
+      "description": "We provide end-to-end solutions for hotels, organize immersive optional tours, offer kimono rentals, and deliver comprehensive consulting services in tourism & inbound strategies. Our focus is to help businesses adapt and flourish in the evolving travel market.",
       "buttonLabel": "More"
     },
     "newsSection": {
-      "title": "News"
+      "title": "Latest News",
+      "description": "Stay updated with our new partnerships, expansions, and special events. Explore how we’re revolutionizing Japan’s travel industry one step at a time."
     },
     "recruitSection": {
-      "title": "Recruit",
-      "description": "We are looking for passionate people with an innovative mindset.",
+      "title": "Join Our Team",
+      "description": "We’re looking for bright minds who are passionate about culture, travel, and innovation. Help us shape the future of tourism in Japan.",
       "buttonLabel": "More"
     },
     "contactSection": {
-      "title": "Contact",
-      "description": "For press inquiries or any other questions, please contact us here."
+      "title": "Get in Touch",
+      "description": "Interested in learning more about our work? Reach out to us for inquiries, partnerships, or press. We’d love to hear from you.",
+      "buttonLabel": "Contact Us"
     }
   }
   

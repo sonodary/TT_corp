@@ -1,68 +1,36 @@
 // src/pages/Home/Home.module.scss
 
-$primaryColor: #c00;
-
-.mainContainer {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.companySection {
-  position: relative;
-  height: 80vh;
-  background-size: cover;
-  background-position: center;
-
-  .overlay {
+.heroContainer {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .heroSlide {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; // fade transition
+    z-index: 0;
+  }
+  
+  .heroSlide.active {
+    opacity: 1;
+  }
+  
+  .heroContent {
+    position: absolute;
+    inset: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
     padding: 2rem;
-    color: #fff;
-    max-width: 600px;
-    margin-left: 5%;
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      margin-bottom: 1rem;
-    }
-    button {
-      align-self: flex-start;
-      background-color: $primaryColor;
-      border: none;
-      color: #fff;
-      padding: 0.5rem 1rem;
-      cursor: pointer;
-      &:hover {
-        opacity: 0.8;
-      }
-    }
   }
-}
-
-.businessSection,
-.newsSection,
-.recruitSection,
-.contactSection {
-  padding: 3rem 2rem;
-  h2 {
-    color: $primaryColor;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+  
+  .recruitBox {
+    position: relative;
   }
-  button {
-    background-color: $primaryColor;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    &:hover {
-      opacity: 0.8;
-    }
-  }
-}

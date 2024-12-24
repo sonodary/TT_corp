@@ -1,39 +1,39 @@
-// src/components/Layout/Footer.module.scss
-
-$primaryColor: #c00;
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; // left's logo & text can stack
-  background-color: #222;
-  color: #fff;
-  padding: 2rem;
-
-  .left {
+.footerContainer {
+    background-color: #111; // dark background
+    padding: 2rem 0;
+    text-align: center; // Default to center for smaller screens
+  }
+  
+  .footerContent {
     display: flex;
-    flex-direction: column;
-    .logo {
-      img {
-        width: 100px;
-        height: auto;
-        margin-bottom: 0.5rem;
-      }
-    }
-    p {
-      margin: 0.25rem 0;
+    justify-content: center; // Center everything
+    align-items: center;
+    flex-wrap: wrap; // Allow wrapping on smaller screens
+  
+    @media (min-width: 600px) {
+      justify-content: space-between; // Only space out on larger screens
+      text-align: left; // Align text left for large screens
     }
   }
-
-  .right {
-    text-align: right;
-    p {
-      margin: 0.25rem 0;
+  
+  .leftSection, .rightSection {
+    margin-bottom: 1.5rem; // Add spacing between sections for smaller screens
+  
+    .logo {
+      width: 120px;
+      height: auto;
+      margin: 0 auto; // Center the logo
     }
+  }
+  
+  .rightSection {
     .snsIcons {
-      margin-top: 0.5rem;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center; // Center icons
+      gap: 1rem;
+  
       a {
-        margin-right: 1rem;
         img {
           width: 24px;
           height: 24px;
@@ -41,16 +41,4 @@ $primaryColor: #c00;
       }
     }
   }
-}
-
-// Responsive for smaller screens
-@media (max-width: 768px) {
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    .right {
-      text-align: center;
-      margin-top: 1rem;
-    }
-  }
-}
+  

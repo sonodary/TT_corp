@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Engineer",
+      "description": "We’re seeking a React/TypeScript developer with strong UI/UX skills and a passion for building engaging user experiences."
+    },
+    {
+      "id": 2,
+      "title": "Marketing Specialist",
+      "description": "Drive social media campaigns, analyze market trends, and coordinate cross-platform marketing strategies to boost brand awareness."
+    },
+    {
+      "id": 3,
+      "title": "Tour Coordinator",
+      "description": "Plan and oversee cultural tours and events, collaborating with local vendors and communities to deliver authentic experiences."
+    }
+  ]
+  

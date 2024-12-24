@@ -1,156 +1,17 @@
 // src/components/Layout/Header.module.scss
 
-$primaryColor: #c00;
-
-// Basic styling reset
-.header {
-  position: relative;
-  width: 100%;
-  min-height: 200px;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-
-  .overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
+.customAppBar {
+    background-color: #c00 !important; // your primary red
+    // You can also do route-based conditional styling or override MUI using its theme.
+  
+    // If you want a background image per route, you can do something like:
+    // &.home-route {
+    //   background: url('/assets/images/bg_header_home.jpg') center/cover no-repeat;
+    // }
   }
-
-  .topBar {
-    position: relative;
-    z-index: 2; // above overlay
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-
-    .logo {
-      img {
-        width: 120px;
-        height: auto;
-      }
-    }
-
-    .desktopNav {
-      display: flex;
-      align-items: center;
-
-      nav {
-        display: flex;
-        gap: 1.5rem;
-
-        a {
-          color: #fff;
-          text-decoration: none;
-          font-weight: bold;
-
-          &:hover {
-            color: $primaryColor;
-          }
-        }
-      }
-
-      .langSwitch {
-        margin-left: 1.5rem;
-
-        button {
-          background: transparent;
-          border: 1px solid #fff;
-          color: #fff;
-          margin-right: 0.5rem;
-          padding: 0.25rem 0.75rem;
-          cursor: pointer;
-
-          &:hover {
-            border-color: $primaryColor;
-            color: $primaryColor;
-          }
-        }
-      }
-    }
-
-    .hamburger {
-      display: none; // hidden on desktop
-      cursor: pointer;
-      span {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 5px 0;
-      }
-    }
+  
+  .logo {
+    height: 40px;
+    width: auto;
   }
-
-  .mobileNav {
-    position: absolute;
-    top: 70px; // below topBar
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.85);
-    z-index: 5;
-    padding: 2rem 1rem;
-
-    nav {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-
-      a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1.2rem;
-
-        &:hover {
-          color: $primaryColor;
-        }
-      }
-    }
-
-    .langSwitchMobile {
-      margin-top: 1.5rem;
-
-      button {
-        background: transparent;
-        border: 1px solid #fff;
-        color: #fff;
-        margin-right: 0.5rem;
-        padding: 0.25rem 0.75rem;
-        cursor: pointer;
-
-        &:hover {
-          border-color: $primaryColor;
-          color: $primaryColor;
-        }
-      }
-    }
-  }
-
-  .pageTitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    text-align: center;
-    h1 {
-      font-size: 2rem;
-      color: #fff;
-      text-transform: uppercase;
-    }
-  }
-}
-
-// Responsive for smaller screens
-@media (max-width: 768px) {
-  .topBar {
-    .desktopNav {
-      display: none; // hide desktop nav
-    }
-    .hamburger {
-      display: block; // show hamburger
-    }
-  }
-}
+  

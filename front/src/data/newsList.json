@@ -1,31 +1,45 @@
 [
     {
       "id": "1",
-      "date": "2024-01-01",
-      "tag": "Event",
+      "date": "2024-09-01",
+      "tag": "Press Release",
       "title": {
-        "en": "New Year's Celebration in Tokyo",
-        "ja": "東京で新年イベント"
+        "en": "New Cultural Tours Announced for Autumn",
+        "ja": "秋の新カルチャーツアーを発表"
       },
       "content": {
-        "en": "This is the full English text for our big New Year event.",
-        "ja": "こちらは新年イベントの日本語テキストです。"
+        "en": "We are thrilled to launch a range of cultural tours this fall, focusing on local festivals and unique traditions...",
+        "ja": "この秋、地域の祭りと独自の伝統に焦点を当てたカルチャーツアーを開始します..."
       },
-      "image": "/assets/images/news/news1.jpg"
+      "image": "/assets/images/news/news_image_1.jpg"
     },
     {
       "id": "2",
-      "date": "2024-02-15",
-      "tag": "Press Release",
+      "date": "2024-08-15",
+      "tag": "Event",
       "title": {
-        "en": "Spring Tourism Initiative",
-        "ja": "春の観光イニシアチブ"
+        "en": "Autumn Festival Collaboration",
+        "ja": "秋祭りコラボレーション"
       },
       "content": {
-        "en": "English text describing the spring tourism initiative...",
-        "ja": "春の観光イニシアチブについての説明文..."
+        "en": "In collaboration with regional tourism boards, we’re hosting an autumn festival to celebrate local art, food, and music...",
+        "ja": "地域の観光協会と協力し、地元のアート、食、音楽を祝う秋祭りを開催します..."
       },
-      "image": "/assets/images/news/news2.jpg"
+      "image": "/assets/images/news/news_image_2.jpg"
+    },
+    {
+      "id": "3",
+      "date": "2024-07-10",
+      "tag": "Update",
+      "title": {
+        "en": "Partnership with Major Hotel Chain",
+        "ja": "大手ホテルチェーンとの提携"
+      },
+      "content": {
+        "en": "We’re excited to announce our partnership with ABC Hotels to enhance visitor experience across top destinations in Japan...",
+        "ja": "日本各地の主要観光地での体験を向上させるため、ABCホテルとの提携を発表します..."
+      },
+      "image": "/assets/images/news/news_image_3.jpg"
     }
   ]
   

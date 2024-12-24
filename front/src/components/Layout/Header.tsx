@@ -1,135 +1,157 @@
 // src/components/Layout/Header.tsx
 import React, { useState } from 'react';
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  Typography,
+  Box,
+  Button,
+  Drawer,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText
+} from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import styles from './Header.module.scss'; // SCSS file
-// import logo from '../../../public/assets/images/logo.png'; // example logo path
+import styles from './Header.module.scss';
 
-interface BackgroundImages {
-  [key: string]: string; // page path -> background image
-}
-
-const backgroundImages: BackgroundImages = {
-  '/': '/assets/images/homepage/header-bg-home.jpg',
-  '/company': '/assets/images/homepage/header-bg-company.jpg',
-  '/business': '/assets/images/homepage/header-bg-business.jpg',
-  '/news': '/assets/images/homepage/header-bg-news.jpg',
-  '/recruit': '/assets/images/homepage/header-bg-recruit.jpg',
-  '/contact': '/assets/images/homepage/header-bg-contact.jpg'
-};
+const navLinks = [
+  { to: '/company', key: 'nav.company' },
+  { to: '/business', key: 'nav.business' },
+  { to: '/news', key: 'nav.news' },
+  { to: '/recruit', key: 'nav.recruit' },
+  { to: '/contact', key: 'nav.contact' }
+];
 
 const Header: React.FC = () => {
   const location = useLocation();
   const { t, i18n } = useTranslation(['header']);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
-  // Determine background image based on current path
-  const currentPath = location.pathname;
-  const headerBg =
-    backgroundImages[currentPath] ||
-    backgroundImages['/']; // default to home if not found
+  // For a "fixed" header that stays on top even when scrolling,
+  // We'll use MUI's position='fixed'
+  // Additional background images can be controlled in CSS using location.pathname
+  // or advanced theming for each route.
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
   };
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
+    setMobileOpen(false);
   };
 
-  return (
-    <header
-      className={styles.header}
-      style={{
-        backgroundImage: `url(${headerBg})`
+  const drawer = (
+    <Box
+      sx={{
+        width: '100vw',
+        height: '100vh',
+        backgroundColor: '#c00',
+        color: 'white',
+        padding: 2
       }}
+      role="presentation"
+      onClick={handleDrawerToggle}
+      onKeyDown={handleDrawerToggle}
     >
-      {/* Overlay to darken background if needed */}
-      <div className={styles.overlay} />
+      <List sx={{ marginTop: 8 }}>
+        {navLinks.map((item) => (
+          <ListItem key={item.key} disablePadding>
+            <ListItemButton
+              component={Link}
+              to={item.to}
+              sx={{ textAlign: 'center' }}
+            >
+              <ListItemText
+                primary={t(item.key)}
+                primaryTypographyProps={{ fontSize: 18, fontWeight: 700 }}
+              />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+      <Box sx={{ textAlign: 'center', marginTop: 4 }}>
+        <Button
+          variant="outlined"
+          sx={{ color: '#fff', borderColor: '#fff', marginRight: 1 }}
+          onClick={() => changeLanguage('en')}
+        >
+          {t('languageSwitch.en')}
+        </Button>
+        <Button
+          variant="outlined"
+          sx={{ color: '#fff', borderColor: '#fff' }}
+          onClick={() => changeLanguage('ja')}
+        >
+          {t('languageSwitch.ja')}
+        </Button>
+      </Box>
+    </Box>
+  );
 
-      {/* Top Bar (logo + nav) */}
-      <div className={styles.topBar}>
-        <div className={styles.logo}>
-          <Link to="/" onClick={() => setMenuOpen(false)}>
-            <img src="assets/images/logo.jpg" alt={t('logoAlt')} />
+  return (
+    <AppBar position="fixed" className={styles.customAppBar}>
+      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+        {/* Logo Section */}
+        <Box display="flex" alignItems="center">
+          <Link to="/">
+            <img src='assets/images/logo.jpg' alt={t('logoAlt')} className={styles.logo} />
           </Link>
-        </div>
+        </Box>
 
-        <div className={styles.desktopNav}>
-          <nav>
-            <Link to="/company">{t('nav.company')}</Link>
-            <Link to="/business">{t('nav.business')}</Link>
-            <Link to="/news">{t('nav.news')}</Link>
-            <Link to="/recruit">{t('nav.recruit')}</Link>
-            <Link to="/contact">{t('nav.contact')}</Link>
-          </nav>
-          <div className={styles.langSwitch}>
-            <button onClick={() => changeLanguage('en')}>
-              {t('languageSwitch.en')}
-            </button>
-            <button onClick={() => changeLanguage('ja')}>
-              {t('languageSwitch.ja')}
-            </button>
-          </div>
-        </div>
+        {/* Desktop Navigation */}
+        <Box
+          sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center' }}
+        >
+          {navLinks.map((item) => (
+            <Button
+              key={item.key}
+              component={Link}
+              to={item.to}
+              sx={{ color: 'white', fontWeight: 700, marginRight: 2 }}
+            >
+              {t(item.key)}
+            </Button>
+          ))}
 
-        {/* Hamburger Menu for Mobile */}
-        <div className={styles.hamburger} onClick={toggleMenu}>
-          <span />
-          <span />
-          <span />
-        </div>
-      </div>
+          {/* Language Buttons */}
+          <Button
+            variant="outlined"
+            sx={{ color: '#fff', borderColor: '#fff', marginRight: 1 }}
+            onClick={() => changeLanguage('en')}
+          >
+            {t('languageSwitch.en')}
+          </Button>
+          <Button
+            variant="outlined"
+            sx={{ color: '#fff', borderColor: '#fff' }}
+            onClick={() => changeLanguage('ja')}
+          >
+            {t('languageSwitch.ja')}
+          </Button>
+        </Box>
 
-      {menuOpen && (
-        <div className={styles.mobileNav}>
-          <nav>
-            <Link to="/company" onClick={toggleMenu}>
-              {t('nav.company')}
-            </Link>
-            <Link to="/business" onClick={toggleMenu}>
-              {t('nav.business')}
-            </Link>
-            <Link to="/news" onClick={toggleMenu}>
-              {t('nav.news')}
-            </Link>
-            <Link to="/recruit" onClick={toggleMenu}>
-              {t('nav.recruit')}
-            </Link>
-            <Link to="/contact" onClick={toggleMenu}>
-              {t('nav.contact')}
-            </Link>
-          </nav>
-          <div className={styles.langSwitchMobile}>
-            <button onClick={() => changeLanguage('en')}>
-              {t('languageSwitch.en')}
-            </button>
-            <button onClick={() => changeLanguage('ja')}>
-              {t('languageSwitch.ja')}
-            </button>
-          </div>
-        </div>
-      )}
+        {/* Mobile Hamburger */}
+        <Box sx={{ display: { xs: 'block', md: 'none' } }}>
+          <IconButton onClick={handleDrawerToggle} sx={{ color: '#fff' }}>
+            <MenuIcon />
+          </IconButton>
+        </Box>
+      </Toolbar>
 
-      {/* Page Title in center (optional) */}
-      <div className={styles.pageTitle}>
-        {/* For example, show a dynamic label based on route */}
-        {/* Or pass a prop from each page to set the title */}
-        {/* This is optional per the requirement: "with the word on the center" */}
-        <h1>
-          {
-            {
-              '/': '',
-              '/company': 'COMPANY',
-              '/business': 'BUSINESS',
-              '/news': 'NEWS',
-              '/recruit': 'RECRUIT',
-              '/contact': 'CONTACT'
-            }[currentPath]
-          }
-        </h1>
-      </div>
-    </header>
+      <Drawer
+        anchor="left"
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        PaperProps={{ style: { backgroundColor: '#c00' } }}
+      >
+        {drawer}
+      </Drawer>
+    </AppBar>
   );
 };
 
