@@ -1,0 +1,15 @@
+{
+    "logoAlt": "企業ロゴ",
+    "nav": {
+      "company": "会社概要",
+      "business": "事業内容",
+      "news": "ニュース",
+      "recruit": "採用情報",
+      "contact": "お問い合わせ"
+    },
+    "languageSwitch": {
+      "en": "EN",
+      "ja": "JP"
+    }
+  }
+  

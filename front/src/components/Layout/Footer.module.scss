@@ -1,0 +1,56 @@
+// src/components/Layout/Footer.module.scss
+
+$primaryColor: #c00;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; // left's logo & text can stack
+  background-color: #222;
+  color: #fff;
+  padding: 2rem;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    .logo {
+      img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 0.5rem;
+      }
+    }
+    p {
+      margin: 0.25rem 0;
+    }
+  }
+
+  .right {
+    text-align: right;
+    p {
+      margin: 0.25rem 0;
+    }
+    .snsIcons {
+      margin-top: 0.5rem;
+      a {
+        margin-right: 1rem;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+// Responsive for smaller screens
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    .right {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  }
+}

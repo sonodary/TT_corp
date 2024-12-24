@@ -1,0 +1,31 @@
+[
+    {
+      "id": "1",
+      "date": "2024-01-01",
+      "tag": "Event",
+      "title": {
+        "en": "New Year's Celebration in Tokyo",
+        "ja": "東京で新年イベント"
+      },
+      "content": {
+        "en": "This is the full English text for our big New Year event.",
+        "ja": "こちらは新年イベントの日本語テキストです。"
+      },
+      "image": "/assets/images/news/news1.jpg"
+    },
+    {
+      "id": "2",
+      "date": "2024-02-15",
+      "tag": "Press Release",
+      "title": {
+        "en": "Spring Tourism Initiative",
+        "ja": "春の観光イニシアチブ"
+      },
+      "content": {
+        "en": "English text describing the spring tourism initiative...",
+        "ja": "春の観光イニシアチブについての説明文..."
+      },
+      "image": "/assets/images/news/news2.jpg"
+    }
+  ]
+  

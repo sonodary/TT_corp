@@ -1,0 +1,25 @@
+{
+    "companySection": {
+      "title": "日本の観光をリードし、文化を次世代につなぐ。",
+      "subtitle": "もっとワクワクする方へ。日本を、もっと盛り上がる方へ。",
+      "buttonLabel": "More"
+    },
+    "businessSection": {
+      "title": "事業内容",
+      "description": "観光やインバウンドに関する幅広いサービスを提供しています。",
+      "buttonLabel": "More"
+    },
+    "newsSection": {
+      "title": "ニュース"
+    },
+    "recruitSection": {
+      "title": "採用情報",
+      "description": "情熱と革新的な考えを持った人材を求めています。",
+      "buttonLabel": "More"
+    },
+    "contactSection": {
+      "title": "お問い合わせ",
+      "description": "取材依頼やその他のご質問はこちらからどうぞ。"
+    }
+  }
+  

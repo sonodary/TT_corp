@@ -1,0 +1,15 @@
+{
+    "logoAlt": "Company Logo",
+    "copyright": "All Rights Reserved.",
+    "companyInfo": {
+      "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
+      "email": "info@travelingtokyo.jp",
+      "phone": "+81-90-1234-5678"
+    },
+    "sns": {
+      "getYourGuideAlt": "GetYourGuide",
+      "tripAdvisorAlt": "TripAdvisor",
+      "instagramAlt": "Instagram"
+    }
+  }
+  

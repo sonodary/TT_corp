@@ -1,0 +1,25 @@
+{
+    "companySection": {
+      "title": "Leading Japan's tourism, bridging culture to future generations.",
+      "subtitle": "Bringing more excitement to inbound travel, uplifting Japan further.",
+      "buttonLabel": "More"
+    },
+    "businessSection": {
+      "title": "Business",
+      "description": "We offer a wide range of tourism and inbound services.",
+      "buttonLabel": "More"
+    },
+    "newsSection": {
+      "title": "News"
+    },
+    "recruitSection": {
+      "title": "Recruit",
+      "description": "We are looking for passionate people with an innovative mindset.",
+      "buttonLabel": "More"
+    },
+    "contactSection": {
+      "title": "Contact",
+      "description": "For press inquiries or any other questions, please contact us here."
+    }
+  }
+  

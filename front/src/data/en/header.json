@@ -1,0 +1,15 @@
+{
+    "logoAlt": "Company Logo",
+    "nav": {
+      "company": "Company",
+      "business": "Business",
+      "news": "News",
+      "recruit": "Recruit",
+      "contact": "Contact"
+    },
+    "languageSwitch": {
+      "en": "EN",
+      "ja": "JP"
+    }
+  }
+  

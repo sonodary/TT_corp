@@ -1,0 +1,14 @@
+{
+    "header": "Contact",
+    "intro": "We appreciate your interest. Please fill out the form below.",
+    "formLabels": {
+      "name": "Name",
+      "company": "Company",
+      "phone": "Phone",
+      "email": "Email",
+      "title": "Title",
+      "message": "Message"
+    },
+    "submitButton": "Submit"
+  }
+  
