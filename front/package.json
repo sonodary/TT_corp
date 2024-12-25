@@ -8,6 +8,7 @@
     "@mui/icons-material": "^6.3.0",
     "@mui/material": "^6.3.0",
     "cra-template": "1.2.0",
+    "gh-pages": "^6.2.0",
     "i18next": "^24.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +48,6 @@
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "homepage": "https://sonodary.github.io/TT_corp/front"
 }
