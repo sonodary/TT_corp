@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/TT_corp/static/css/main.7a47c4e6.css",
-    "main.js": "/TT_corp/static/js/main.a2699e03.js",
-    "static/js/61.57812158.chunk.js": "/TT_corp/static/js/61.57812158.chunk.js",
-    "index.html": "/TT_corp/index.html",
-    "main.7a47c4e6.css.map": "/TT_corp/static/css/main.7a47c4e6.css.map",
-    "main.a2699e03.js.map": "/TT_corp/static/js/main.a2699e03.js.map"
+    "main.css": "/TT_corp/front/static/css/main.7a47c4e6.css",
+    "main.js": "/TT_corp/front/static/js/main.d3ecb3b8.js",
+    "static/js/61.57812158.chunk.js": "/TT_corp/front/static/js/61.57812158.chunk.js",
+    "index.html": "/TT_corp/front/index.html",
+    "main.7a47c4e6.css.map": "/TT_corp/front/static/css/main.7a47c4e6.css.map",
+    "main.d3ecb3b8.js.map": "/TT_corp/front/static/js/main.d3ecb3b8.js.map"
   },
   "entrypoints": [
     "static/css/main.7a47c4e6.css",
-    "static/js/main.a2699e03.js"
+    "static/js/main.d3ecb3b8.js"
   ]
 }
