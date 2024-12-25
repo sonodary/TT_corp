@@ -9,12 +9,12 @@
     "@mui/material": "^6.3.0",
     "cra-template": "1.2.0",
     "gh-pages": "^6.2.0",
-    "i18next": "^24.2.0",
+    "i18next": "^21.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-i18next": "^15.2.0",
+    "react-i18next": "^11.18.5",
     "react-router-dom": "^7.1.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.83.0"
   },
   "scripts": {
@@ -47,7 +47,6 @@
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "typescript": "^5.7.2"
-  },
-  "homepage": "https://sonodary.github.io/TT_corp/front"
+    "typescript": "^4.9.5"
+  }
 }
