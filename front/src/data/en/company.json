@@ -1,5 +1,57 @@
 {
     "header": "Company",
-    "description": "Welcome to the Company page. Here is some placeholder text for the English version."
+    "mission": {
+      "title": "Mission",
+      "bold": "Inspiring a new generation of travel enthusiasts across Japan and beyond.",
+      "description": "We strive to connect local communities with global explorers, fostering cultural exchange and sustainable tourism. Our mission is to create immersive travel experiences that enrich minds and spark curiosity about Japan’s unique heritage."
+    },
+    "team": {
+      "title": "Team",
+      "members": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "position": "CEO",
+          "intro": "A visionary leader with 10+ years in tourism innovation. Passionate about building a global community.",
+          "photo": "/assets/images/company/team_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "position": "COO",
+          "intro": "Expert in operations and strategic partnerships, ensuring seamless travel experiences for our customers.",
+          "photo": "/assets/images/company/team_2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Takeshi Tanaka",
+          "position": "CTO",
+          "intro": "Leading our tech solutions, from AI-driven travel recommendations to dynamic booking platforms.",
+          "photo": "/assets/images/company/team_3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Takeshi Tanaka",
+            "position": "CTO",
+            "intro": "Leading our tech solutions, from AI-driven travel recommendations to dynamic booking platforms.",
+            "photo": "/assets/images/company/team_3.jpg"
+          }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "info": {
+        "companyName": "Traveling Tokyo Inc.",
+        "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
+        "establishment": "Established in 2022",
+        "ceo": "John Doe",
+        "capital": "¥100,000,000",
+        "businessActivities": "Tour planning, inbound consulting, media and community operations"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "buttonLabel": "Contact US"
+    }
   }
   

@@ -29,22 +29,38 @@ const Recruit: React.FC = () => {
   return (
     <>
       <Header />
-      <Box
+    {/* Hero Section */}
+    <Box
         className={styles.heroSection}
         sx={{
-          background: `url('/assets/images/recruit/recruit_hero_bg.jpg') center/cover no-repeat`,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          height: '50vh'
+            position: 'relative',
+            height: { xs: '30vh', md: '40vh' }, // Smaller height for phones
+            background: `url('/assets/images/recruit/recruit_hero_bg.jpg') center/cover no-repeat`
         }}
-      >
-        <Box textAlign="center" sx={{ color: '#fff', background: 'rgba(0,0,0,0.3)', p: 4 }}>
-          <Typography variant="h3" fontWeight={600}>
+        >
+        <Box
+            sx={{
+            position: 'absolute',
+            inset: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark overlay
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+            }}
+        >
+            <Typography
+            variant="h2"
+            sx={{
+                color: '#fff',
+                fontWeight: 700,
+                fontSize: { xs: '2rem', md: '3rem' }, // Responsive font size
+                textAlign: 'center'
+            }}
+            >
             {t('header')}
-          </Typography>
+            </Typography>
         </Box>
-      </Box>
+    </Box>
 
       <Container maxWidth="lg" sx={{ py: 8 }}>
         {/* Message Section */}
@@ -126,7 +142,7 @@ const Recruit: React.FC = () => {
             component={Link}
             to="/contact"
           >
-            {t('contactButton')}
+            Contact Us
           </Button>
         </Box>
       </Container>

@@ -1,5 +1,57 @@
 {
-    "header": "会社概要",
-    "description": "こちらは会社概要ページの日本語版テキストです。"
+    "header": "Company",
+    "mission": {
+      "title": "Mission",
+      "bold": "日本や世界中で新しい世代の旅行愛好家をインスパイアする。",
+      "description": "地域社会と世界中の旅行者をつなぎ、文化交流と持続可能な観光を促進します。私たちのミッションは、日本のユニークな遺産についての好奇心を刺激し、心を豊かにする没入型の旅行体験を創造することです。地域社会と世界中の旅行者をつなぎ、文化交流と持続可能な観光を促進します。私たちのミッションは、日本のユニークな遺産についての好奇心を刺激し、心を豊かにする没入型の旅行体験を創造することです。"
+    },
+    "team": {
+      "title": "Team",
+      "members": [
+        {
+          "id": 1,
+          "name": "ジョン・ドウ",
+          "position": "CEO",
+          "intro": "観光革新で10年以上の経験を持つビジョナリーリーダー。グローバルコミュニティの構築に情熱を注いでいます。",
+          "photo": "/assets/images/company/team_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "ジェーン・スミス",
+          "position": "COO",
+          "intro": "運営と戦略的パートナーシップの専門家で、お客様のシームレスな旅行体験を実現します。",
+          "photo": "/assets/images/company/team_2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "田中たけし",
+          "position": "CTO",
+          "intro": "AI駆動の旅行推奨から動的な予約プラットフォームまで、技術ソリューションをリードしています。",
+          "photo": "/assets/images/company/team_3.jpg"
+        },
+        {
+            "id": 3,
+            "name": "田中たけし",
+            "position": "CTO",
+            "intro": "AI駆動の旅行推奨から動的な予約プラットフォームまで、技術ソリューションをリードしています。",
+            "photo": "/assets/images/company/team_3.jpg"
+          }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "info": {
+        "companyName": "株式会社トラベリング東京",
+        "address": "東京都港区東京ストリート123",
+        "establishment": "2022年設立",
+        "ceo": "ジョン・ドウ",
+        "capital": "1億円",
+        "businessActivities": "ツアー企画、インバウンドコンサルティング、メディアおよびコミュニティ運営"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "buttonLabel": "お問い合わせはこちら"
+    }
   }
   

@@ -1,10 +1,11 @@
 // src/pages/News/NewsList.tsx
 import React, { useEffect, useState } from 'react';
-import { Container, Typography, Grid2, Card, CardContent, Button } from '@mui/material';
+import { Container, Typography, Grid2, Card, CardContent, Button, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Layout/Header';
 import Footer from '../../components/Layout/Footer';
+import styles from './NewsList.module.scss';
 
 interface NewsItem {
   id: string;
@@ -37,6 +38,38 @@ const NewsList: React.FC = () => {
   return (
     <>
       <Header />
+      {/* Hero Section */}
+    <Box
+        className={styles.heroSection}
+        sx={{
+            position: 'relative',
+            height: { xs: '30vh', md: '40vh' }, // Smaller height for phones
+            background: `url('/assets/images/news/newsList_hero_bg.jpg') center/cover no-repeat`
+        }}
+        >
+        <Box
+            sx={{
+            position: 'absolute',
+            inset: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark overlay
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+            }}
+        >
+            <Typography
+            variant="h2"
+            sx={{
+                color: '#fff',
+                fontWeight: 700,
+                fontSize: { xs: '2rem', md: '3rem' }, // Responsive font size
+                textAlign: 'center'
+            }}
+            >
+            {t('header')}
+            </Typography>
+        </Box>
+    </Box>
       <Container maxWidth="lg" sx={{ py: 8 }}>
         <Typography variant="h4" sx={{ color: '#c00', fontWeight: 700, mb: 4 }}>
           {t('header')} {/* e.g. "News" */}

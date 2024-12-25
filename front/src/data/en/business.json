@@ -1,5 +1,26 @@
 {
-    "header": "Business",
-    "description": "Welcome to the Business page. Here is some placeholder text for the English version."
+    "header": "Our Business",
+    "items": [
+      {
+        "id": 1,
+        "title": "Hotel Support",
+        "images": [
+          "/assets/images/business/hotel_support_1.jpg",
+          "/assets/images/business/hotel_support_2.jpg"
+        ],
+        "description": "We offer end-to-end solutions for hotels, including reservation systems, housekeeping optimization, and staff training programs.",
+        "link": "https://example.com/hotel-support"
+      },
+      {
+        "id": 2,
+        "title": "Immersive Tours",
+        "images": [
+          "/assets/images/business/tours_1.jpg",
+          "/assets/images/business/tours_2.jpg"
+        ],
+        "description": "Our cultural and nature tours connect travelers with local communities, customs, and cuisine, delivering unique, memory-rich experiences.",
+        "link": "https://example.com/immersive-tours"
+      }
+    ]
   }
   

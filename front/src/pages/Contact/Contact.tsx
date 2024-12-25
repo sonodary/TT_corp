@@ -7,7 +7,7 @@ import {
   Typography,
   TextField,
   Button,
-  Grid
+  Grid2
 } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Layout/Header';
@@ -26,21 +26,46 @@ const Contact: React.FC = () => {
   return (
     <>
       <Header />
-      <Box className={styles.contactHero}>
-        <Box className={styles.overlay}>
-          <Typography variant="h3" sx={{ color: '#fff', fontWeight: 600 }}>
+      {/* Hero Section */}
+      <Box
+        className={styles.heroSection}
+        sx={{
+            position: 'relative',
+            height: { xs: '30vh', md: '40vh' }, // Smaller height for phones
+            background: `url('/assets/images/contact/contact_hero_bg.jpg') center/cover no-repeat`
+        }}
+        >
+        <Box
+            sx={{
+            position: 'absolute',
+            inset: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark overlay
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+            }}
+        >
+            <Typography
+            variant="h2"
+            sx={{
+                color: '#fff',
+                fontWeight: 700,
+                fontSize: { xs: '2rem', md: '3rem' }, // Responsive font size
+                textAlign: 'center'
+            }}
+            >
             {t('header')}
-          </Typography>
+            </Typography>
         </Box>
-      </Box>
+        </Box>
 
       <Container maxWidth="md" sx={{ py: 8 }}>
         <Typography variant="body1" sx={{ mb: 4 }}>
           {t('intro')}
         </Typography>
         <Box component="form" onSubmit={handleSubmit}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} sm={6}>
+          <Grid2 container spacing={3}>
+            <Grid2 size={{xs:12, sm:6}}>
               <TextField
                 fullWidth
                 label={t('formLabels.name')}
@@ -48,24 +73,24 @@ const Contact: React.FC = () => {
                 name="name"
                 required
               />
-            </Grid>
-            <Grid item xs={12} sm={6}>
+            </Grid2>
+            <Grid2 size={{xs:12, sm:6}}>
               <TextField
                 fullWidth
                 label={t('formLabels.company')}
                 variant="outlined"
                 name="company"
               />
-            </Grid>
-            <Grid item xs={12} sm={6}>
+            </Grid2>
+            <Grid2 size={{xs:12, sm:6}}>
               <TextField
                 fullWidth
                 label={t('formLabels.phone')}
                 variant="outlined"
                 name="phone"
               />
-            </Grid>
-            <Grid item xs={12} sm={6}>
+            </Grid2>
+            <Grid2 size={{xs:12, sm:6}}>
               <TextField
                 fullWidth
                 label={t('formLabels.email')}
@@ -73,16 +98,16 @@ const Contact: React.FC = () => {
                 name="email"
                 required
               />
-            </Grid>
-            <Grid item xs={12}>
+            </Grid2>
+            <Grid2 size={{xs:12}}>
               <TextField
                 fullWidth
                 label={t('formLabels.title')}
                 variant="outlined"
                 name="title"
               />
-            </Grid>
-            <Grid item xs={12}>
+            </Grid2>
+            <Grid2 size={{xs:12}}>
               <TextField
                 fullWidth
                 multiline
@@ -91,8 +116,8 @@ const Contact: React.FC = () => {
                 variant="outlined"
                 name="message"
               />
-            </Grid>
-          </Grid>
+            </Grid2>
+          </Grid2>
           <Box textAlign="right" sx={{ mt: 3 }}>
             <Button
               type="submit"

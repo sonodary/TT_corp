@@ -27,7 +27,6 @@ const NewsDetail: React.FC = () => {
   const [newsItem, setNewsItem] = useState<NewsItem | null>(null);
 
   useEffect(() => {
-    const lang = i18n.language === 'ja' ? 'ja' : 'en';
     import(`../../data/newsList.json`)
       .then((mod) => {
         const all: NewsItem[] = mod.default;
