@@ -48,5 +48,6 @@
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "typescript": "^4.9.5"
-  }
+  },
+  "homepage": "https://sonodary.github.io/front/"
 }
