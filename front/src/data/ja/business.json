@@ -3,22 +3,22 @@
     "items": [
       {
         "id": 1,
-        "title": "ホテルサポート",
+        "title": "現地体験型ツアー",
         "images": [
           "/assets/images/business/hotel_support_1.jpg",
           "/assets/images/business/hotel_support_2.jpg"
         ],
-        "description": "予約システム、清掃業務の最適化、スタッフ研修プログラムなど、ホテル向けのエンドツーエンドソリューションを提供します。",
+        "description": "当社では、訪日旅行者向けツアーの企画、販売、提供を一貫して行っております。私たちのチームは、ガイドの採用、教育、育成に力を入れ、安全で高品質なツアー体験を提供しています。オンライン旅行代理店（OTA）や自社SNSを活用し、毎月1500人以上のお客様にツアーを提供しております。また、TripAdvisorやGet Your Guideで1700件以上の星5つのレビューをいただき、高い評価を得ております。",
         "link": "https://example.com/hotel-support"
       },
       {
         "id": 2,
-        "title": "体験型ツアー",
+        "title": "メディア事業",
         "images": [
           "/assets/images/business/tours_1.jpg",
           "/assets/images/business/tours_2.jpg"
         ],
-        "description": "文化や自然に触れるツアーを通じて、旅行者と地元コミュニティ、習慣、料理をつなぎ、記憶に残るユニークな体験を提供します。",
+        "description": "当社は、自社のInstagramチャンネルを保有・運営しております。このチャンネルはサービス開始からわずか5ヶ月でフォロワー15万人を突破し、月間1000万人以上の外国人ユーザーにリーチしています。多くのツアー参加者がこのメディアを通じてツアーを予約しており、訪日外国人観光客が旅行前や旅行中に情報を得るためのSNSとして、国内最大級の規模を誇っています。",
         "link": "https://example.com/immersive-tours"
       }
     ]

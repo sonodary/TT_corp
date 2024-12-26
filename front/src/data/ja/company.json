@@ -10,30 +10,30 @@
       "members": [
         {
           "id": 1,
-          "name": "ジョン・ドウ",
-          "position": "CEO",
-          "intro": "観光革新で10年以上の経験を持つビジョナリーリーダー。グローバルコミュニティの構築に情熱を注いでいます。",
+          "name": "Yota Koketsu",
+          "position": "代表取締役社長",
+          "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業後、ロサンゼルスにて現地就職。退社後に起業したMediabound Inc.の代表社員。幼少期に香港やイギリスのグローバルな環境で過ごす。ガイド業を展開・拡大中。",
           "photo": "/assets/images/company/team_1.jpg"
         },
         {
           "id": 2,
-          "name": "ジェーン・スミス",
-          "position": "COO",
-          "intro": "運営と戦略的パートナーシップの専門家で、お客様のシームレスな旅行体験を実現します。",
+          "name": "Ryota Matsunaga",
+          "position": "共同創業者",
+          "intro": "Grinnell College Computer Science学部卒業。Mediabound Inc.の共同創業者。幼少期は、香港、上海、オーストラリアとインターナショナルな環境に身を置く。インバウンドガイドメディア「Traveling Tokyo」にて、90日でフォロワー5万人、PV数500万回を達成。",
           "photo": "/assets/images/company/team_2.jpg"
         },
         {
           "id": 3,
-          "name": "田中たけし",
-          "position": "CTO",
-          "intro": "AI駆動の旅行推奨から動的な予約プラットフォームまで、技術ソリューションをリードしています。",
+          "name": "Doren Mansbacher",
+          "position": "取締役",
+          "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業。早稲田大学留学。Mediabound創業時にジョイン。",
           "photo": "/assets/images/company/team_3.jpg"
         },
         {
             "id": 3,
-            "name": "田中たけし",
-            "position": "CTO",
-            "intro": "AI駆動の旅行推奨から動的な予約プラットフォームまで、技術ソリューションをリードしています。",
+            "name": "Naoya Toyokawa",
+            "position": "執行役員",
+            "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業。",
             "photo": "/assets/images/company/team_3.jpg"
           }
       ]
@@ -41,12 +41,12 @@
     "about": {
       "title": "About",
       "info": {
-        "companyName": "株式会社トラベリング東京",
-        "address": "東京都港区東京ストリート123",
-        "establishment": "2022年設立",
-        "ceo": "ジョン・ドウ",
+        "companyName": "Mediabound 合同会社",
+        "address": "東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F－C",
+        "establishment": "2024年設立",
+        "ceo": "纐纈陽太",
         "capital": "1億円",
-        "businessActivities": "ツアー企画、インバウンドコンサルティング、メディアおよびコミュニティ運営"
+        "businessActivities": "ツアー企画・運営・販売、インバウンドコンサルティング、メディア運営"
       }
     },
     "contact": {
