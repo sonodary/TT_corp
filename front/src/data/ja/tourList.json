@@ -1,0 +1,44 @@
+[
+    {
+        "id": "tour-shinjuku-food",
+        "name": "新宿フードツアー",
+        "description": "新宿の隠れた路地の美食を探訪し、美味しい地元料理を楽しみます。没入型の食体験ツアーです。",
+        "image": "/assets/images/tours/shinjuku_food.jpg",
+        "link": "/business/shinjuku-food-tour"
+    },
+    {
+        "id": "tour-tsukiji",
+        "name": "築地場外市場ツアー",
+        "description": "築地場外市場の活気あふれる雰囲気に飛び込み、新鮮な海産物を試食し、その歴史を学びます。",
+        "image": "/assets/images/tours/tsukiji_market.jpg",
+        "link": "/business/tsukiji-market-tour"
+    },
+    {
+        "id": "tour-imperial-palace",
+        "name": "皇居東御苑・日本の文化ツアー",
+        "description": "歴史ある皇居東御苑や周辺の文化史跡を巡るガイド付きウォーキングで、時代を遡りましょう。",
+        "image": "/assets/images/tours/imperial_palace.jpg",
+        "link": "/business/imperial-palace-tour"
+    },
+     {
+        "id": "tour-asakusa",
+        "name": "浅草文化ハイライトツアー",
+        "description": "浅草の伝統的な魅力を体験し、浅草寺を訪れ、仲見世通りを散策します。",
+        "image": "/assets/images/tours/asakusa.jpg",
+        "link": "/business/asakusa-tour"
+    },
+    {
+        "id": "tour-asakusa",
+        "name": "浅草文化ハイライトツアー",
+        "description": "浅草の伝統的な魅力を体験し、浅草寺を訪れ、仲見世通りを散策します。",
+        "image": "/assets/images/tours/asakusa.jpg",
+        "link": "/business/asakusa-tour"
+    },
+    {
+        "id": "tour-asakusa",
+        "name": "浅草文化ハイライトツアー",
+        "description": "浅草の伝統的な魅力を体験し、浅草寺を訪れ、仲見世通りを散策します。",
+        "image": "/assets/images/tours/asakusa.jpg",
+        "link": "/business/asakusa-tour"
+    }
+]

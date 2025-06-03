@@ -1,57 +1,116 @@
 {
-    "header": "Company",
-    "mission": {
-      "title": "Mission",
-      "bold": "日本や世界中で新しい世代の旅行愛好家をインスパイアする。",
-      "description": "地域社会と世界中の旅行者をつなぎ、文化交流と持続可能な観光を促進します。私たちのミッションは、日本のユニークな遺産についての好奇心を刺激し、心を豊かにする没入型の旅行体験を創造することです。地域社会と世界中の旅行者をつなぎ、文化交流と持続可能な観光を促進します。私たちのミッションは、日本のユニークな遺産についての好奇心を刺激し、心を豊かにする没入型の旅行体験を創造することです。"
-    },
-    "team": {
-      "title": "Team",
-      "members": [
+  "header": "会社概要",
+  "message": {
+    "heading": "代表メッセージ",
+    "paragraph1": "私たちTraveling Tokyoは、日本の比類なき魅力と本物の文化を世界と分かち合いたいという深い情熱を持って創業しました。",
+    "paragraph2": "広範な海外での経験と、UCLAでの学びから得た国際的な視点を活かし、単なる観光を超えた忘れられない体験を創造することを目指しています。旅を通して東京と日本の心髄と魂に触れる繋がりを提供することが、私たちの起業の原動力です。",
+    "photo": "/assets/images/team/founder_photo.jpg"
+  },
+  "philosophy": {
+    "heading": "私たちの理念",
+    "missionHeading": "ミッション",
+    "missionText": "旅行後も長く心に残る、忘れられない「日本体験」をお届けすること。",
+    "visionHeading": "ビジョン",
+    "visionText": "「Traveling Tokyo」と聞いて、世界中の人々が「あの最高の体験」を思い出す会社になること。「体験」という言葉で、世界に認知される東京発のNo.1ブランドになること。",
+    "valuesHeading": "社内バリュー（Core Values）",
+    "values": [
         {
-          "id": 1,
-          "name": "Yota Koketsu",
-          "position": "代表取締役社長",
-          "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業後、ロサンゼルスにて現地就職。退社後に起業したMediabound Inc.の代表社員。幼少期に香港やイギリスのグローバルな環境で過ごす。ガイド業を展開・拡大中。",
-          "photo": "/assets/images/company/team_1.jpg"
+          "title": "Speed is King",
+          "description": "完璧を待つより、まずやって改善する。早い対応は、お客様への信頼そのものです。",
+          "icon": "/assets/icons/speed.svg" 
         },
         {
-          "id": 2,
-          "name": "Ryota Matsunaga",
-          "position": "共同創業者",
-          "intro": "Grinnell College Computer Science学部卒業。Mediabound Inc.の共同創業者。幼少期は、香港、上海、オーストラリアとインターナショナルな環境に身を置く。インバウンドガイドメディア「Traveling Tokyo」にて、90日でフォロワー5万人、PV数500万回を達成。",
-          "photo": "/assets/images/company/team_2.jpg"
+          "title": "Challenge with Courage",
+          "description": "新しいエリア、新しい役割、新しいアイデア。変化に前向きでいることが、私たちの進化をつくります。",
+           "icon": "/assets/icons/challenge.svg" 
         },
         {
-          "id": 3,
-          "name": "Doren Mansbacher",
-          "position": "取締役",
-          "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業。早稲田大学留学。Mediabound創業時にジョイン。",
-          "photo": "/assets/images/company/team_3.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Naoya Toyokawa",
-            "position": "執行役員",
-            "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業。",
-            "photo": "/assets/images/company/team_3.jpg"
-          }
+          "title": "Own the Brand",
+          "description": "「Traveling Tokyoは信頼できる」と言ってもらえるかは、あなたの一言・一行動にかかっています。",
+           "icon": "/assets/icons/brand.svg"
+        }
+      ]
+  },
+  "profile": {
+    "heading": "会社概要",
+    "companyName": "株式会社Traveling Tokyo",
+    "representative": "陽太　纐纈",
+    "establishmentDate": "YYYY年MM月DD日",
+    "address": "東京都港区東京ストリート123番地",
+    "businessActivities": "日本文化、食、地元体験に特化したインバウンドツアーの企画、開発、運営。",
+    "email": "info@travelingtokyo.jp",
+    "phone": "+81-90-1234-5678",
+    "transactionPlatformsHeading": "取引プラットフォーム",
+    "transactionPlatforms": [
+       { "name": "トリップアドバイザー", "logo": "/assets/images/platforms/tripadvisor_logo.png", "link": "https://www.tripadvisor.jp/" },
+       { "name": "ビアター", "logo": "/assets/images/platforms/viator_logo.png", "link": "https://www.viator.com/" },
+       { "name": "ゲットユアガイド", "logo": "/assets/images/platforms/getyourguide_logo.png", "link": "https://www.getyourguide.jp/" }
+    ],
+    "registrationHeading": "旅行業登録",
+    "registrationNumber": "東京都知事登録旅行業第XXXX号"
+  },
+   "achievements": {
+      "heading": "実績・統計",
+      "annualToursHeading": "年間ツアー催行数",
+      "annualToursCount": "1,300件以上",
+      "annualToursIcon": "/assets/icons/tour_count.svg", 
+      "totalParticipantsHeading": "累計参加者数",
+      "totalParticipantsCount": "10,000名超",
+      "totalParticipantsIcon": "/assets/icons/participant_count.svg", 
+      "nationalityDiversityHeading": "国籍の多様性",
+      "nationalityDiversityCount": "50カ国以上から参加",
+      "nationalityDiversityIcon": "/assets/icons/nationality.svg", 
+      "reviewRatingHeading": "レビュー評価",
+      "averageRating": "4.9 / 5.0",
+      "platformReviewsHeading": "プラットフォーム別レビュー件数",
+      "platformReviews": [
+         { "platform": "トリップアドバイザー", "count": "1,200件以上", "link": "YOUR_TRIPADVISOR_REVIEWS_LINK" },
+         { "platform": "ビアター", "count": "500件以上", "link": "YOUR_VIATOR_REVIEWS_LINK" },
+         { "platform": "ゲットユアガイド", "count": "300件以上", "link": "YOUR_GETYOURGUIDE_REVIEWS_LINK" }
       ]
     },
-    "about": {
-      "title": "About",
-      "info": {
-        "companyName": "Mediabound 合同会社",
-        "address": "東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F－C",
-        "establishment": "2024年設立",
-        "ceo": "纐纈陽太",
-        "capital": "1億円",
-        "businessActivities": "ツアー企画・運営・販売、インバウンドコンサルティング、メディア運営"
-      }
+  "media": {
+    "heading": "メディア掲載歴",
+    "mentions": [
+      { "media": "日本経済新聞", "date": "2024年6月", "description": "ユニークな東京体験に関する掲載記事。" },
+      { "media": "NHK『Tokyo Cool!』", "date": "2023年8月", "description": "フードツアーに焦点を当てた出演。" },
+      { "media": "タイムアウト東京", "date": "2024年3月", "description": "東京の主要ツアーオペレーターとして掲載。" }
+    ]
+  },
+   "collaborations": {
+      "heading": "連携実績",
+      "list": [
+         { "type": "行政・観光関連", "description": "[都道府県/市観光課]との連携プロモーションツアー。" },
+         { "type": "企業研修", "description": "[企業名]の企業研修プログラム向け文化ツアーを提供。" },
+         { "type": "インターナショナルスクール", "description": "[学校名]の生徒向け団体ツアーを企画実施。" }
+      ]
+   },
+   "implementedToursSummary": {
+       "heading": "導入ツアー・サービス紹介",
+       "description": "人気の代表的なツアーやサービスの一部をご紹介します：",
+       "tourHighlights": [
+          { "name": "新宿フードツアー", "stats": "500回以上催行、常に高評価。" },
+          { "name": "築地場外市場ツアー", "stats": "リピート率が高いことで知られています。" }
+       ]
     },
-    "contact": {
-      "title": "Contact",
-      "buttonLabel": "お問い合わせはこちら"
-    }
-  }
-  
+  "team": {
+    "title": "私たちのチーム",
+     "members": [
+         {
+             "id": 1,
+             "name": "チームメンバー1",
+             "position": "創業者・代表取締役",
+             "intro": "チームメンバー1の簡単な紹介文。",
+             "photo": "/assets/images/team/member1.jpg" 
+         }
+     ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "buttonLabel": "お問い合わせはこちら"
+  },
+  "recruitLink": {
+       "text": "採用情報を見る",
+       "url": "YOUR_INDEED_OR_RECRUITMENT_PAGE_LINK" 
+   }
+}

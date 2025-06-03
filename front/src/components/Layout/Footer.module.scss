@@ -1,44 +1,224 @@
 .footerContainer {
-    background-color: #111; // dark background
-    padding: 2rem 0;
-    text-align: center; // Default to center for smaller screens
-  }
-  
-  .footerContent {
+  background-color: #111; // Black background for the overall footer container (including the sides of the bottom section)
+  padding: 0; // Remove padding here, add to inner sections or wrappers
+  text-align: center; // Default to center for smaller screens
+}
+
+.whiteTopSection {
+    background-color: #fff; // White background for this full-width section
+    padding: 3rem 0; // Add padding to the top and bottom of the content within this wrapper
+    margin-top: 2rem; // Add top margin to the entire white section
+    border-bottom: 1px solid #eee; // Optional: Add a subtle separator below the white section
+}
+
+.recognitionSectionContent {
+     // Styles for the centered content within the white section
     display: flex;
-    justify-content: center; // Center everything
-    align-items: center;
-    flex-wrap: wrap; // Allow wrapping on smaller screens
-  
-    @media (min-width: 600px) {
-      justify-content: space-between; // Only space out on larger screens
-      text-align: left; // Align text left for large screens
-    }
+    flex-direction: column; // Always stack direct children vertically
+    align-items: center; // Center items horizontally within the container
+    text-align: center;
+    color: #000; // Ensure text color is dark on white
+}
+
+.recommendedBy {
+  margin-bottom: 3rem; // Space below this section
+  width: 100%; // Take full width
+
+  // Styles for the text and logo layout within recommendedBy
+  display: flex;
+  flex-direction: column; // Always stack text and logo container vertically
+  align-items: center; // Center content horizontally within recommendedBy
+  justify-content: center; // Center content vertically if there's extra space
+
+  // Removed the media query that changed flex-direction to row
+  // @media (min-width: 600px) {
+  //    flex-direction: row;
+  //    justify-content: center;
+  //    align-items: flex-start;
+  //    gap: 3rem;
+  // }
+}
+
+ .recommendedByText {
+     // Styles for the wrapper around heading and description
+      text-align: center; // Center text within this box
+      @media (min-width: 600px) {
+        text-align: left; // Align text left when in row layout
+     }
+
+     /* Styles for the Recommended By Heading */
+     h3 { // Target the h3 element (which is the Recommended By heading)
+         font-size: 2rem; // Make the font size bigger (adjust value as needed)
+         font-weight: 700; // Make it bolder (700 is typically bold)
+         // Ensure color is correct if needed, but it inherits from parent
+     }
+ }
+
+ // Style the description text specifically if needed for alignment
+ .recommendedByText > Typography[variant="body2"] {
+  text-align: center; // Ensure description text is centered on all screens in column layout
+  @media (min-width: 600px) {
+      text-align: left; // Align left when in row layout
   }
-  
-  .leftSection, .rightSection {
-    margin-bottom: 1.5rem; // Add spacing between sections for smaller screens
-  
-    .logo {
-      width: 120px;
-      height: auto;
-      margin: 0 auto; // Center the logo
+}
+
+
+.logoContainer {
+  display: flex;
+  gap: 2rem; // Space between logos - Adjust if needed for clutter
+  flex-wrap: wrap; // Allow logos to wrap on smaller screens
+  justify-content: center; // Center logos on all screen sizes
+  margin-top: 1.5rem; // Space below the text and above the logos
+  // Removed media query for margin-top
+  // @media (min-width: 600px) {
+  //     margin-top: 0;
+  // }
+  // Removed flex-grow and max-width as they are not needed in column layout
+  // flex-grow: 1;
+  // max-width: 60%;
+  // Removed media query for justify-content
+  // @media (min-width: 600px) {
+  //     justify-content: flex-start;
+  // }
+}
+
+.recognitionLogo {
+  height: 100px; // Adjust size as needed - Made partner logos bigger
+  width: auto;
+  // Add any additional styles like grayscale or opacity on hover if desired
+}
+.recommendedByCompanyLogo {
+    // Removed this class as the company logo is removed from this section
+}
+
+.recognitionLogo {
+  height: 100px; // Adjust size as needed - Made partner logos bigger
+  width: auto;
+  // Add any additional styles like grayscale or opacity on hover if desired
+}
+.recommendedByCompanyLogo {
+    // Removed this class as the company logo is removed from this section
+}
+
+.tripadvisorAwardsRow {
+    margin-bottom: 0; // No margin below the last section in the container
+    width: 100%; // Take full width
+    display: flex;
+    flex-direction: column; // Stack listings and awards vertically by default
+    align-items: center; // Center content
+
+    @media (min-width: 900px) { // Adjust breakpoint to when you want them side-by-side
+        flex-direction: row; // Arrange listings and awards side-by-side
+        justify-content: space-around; // Space out the listings and awards areas
+        align-items: flex-start; // Align items to the top
     }
+}
+
+
+.tripadvisorListingsArea {
+    margin-bottom: 3rem; // Space below on small screens
+    width: 100%; // Take full width on small screens
+    @media (min-width: 900px) {
+        margin-bottom: 0; // No bottom margin when side-by-side
+         width: 60%; // Adjust width distribution as needed
+    }
+}
+
+
+.tripadvisorItem {
+     text-align: center;
+     // margin-bottom handled by Grid spacing or parent margin-bottom
+ }
+
+ .tripadvisorIcon {
+     width: 40px; // Adjust size as needed
+     height: auto;
+     filter: none; // Ensure the icon is not inverted on white
+ }
+
+ .starRating {
+     color: #FFD700; // Gold color for stars (example)
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
+      font-size: 1.2rem; // Adjust star size
+ }
+
+.awardsArea {
+    width: 100%; // Take full width on small screens
+    @media (min-width: 900px) {
+        width: 35%; // Adjust width distribution as needed
+         text-align: left; // Align text left when side-by-side
+    }
+
+    /* Styles for the Awarded Heading */
+    h3 { // Target the h3 element (which is the Awarded heading)
+        font-weight: 700; // Make it bolder (700 is typically bold)
+        // Ensure color is correct if needed
+    }
+}
+
+ .tripadvisorAwards {
+     // Removed styles if this is no longer a wrapper in TS
+ }
+
+ .awardBadges {
+     display: flex;
+     gap: 1rem; // Space between badges
+     flex-wrap: wrap;
+     justify-content: center; // Center badges on all screen sizes
+     margin-top: 1rem;
+ }
+
+ .awardBadge {
+     height: 150px; // Adjust size as needed
+     width: auto;
+ }
+
+
+.footerContentWrapper {
+   // This wrapper is no longer used for background in the new structure
+   // You can remove this class if not needed for other purposes
+}
+
+.footerContent {
+  // This container's sides will be black because of the footerContainer's background
+  background-color: #111; // Dark background for the content area itself
+  padding: 2rem 0; // Add padding here
+  display: flex;
+  justify-content: center; // Center everything
+  align-items: center;
+  flex-wrap: wrap; // Allow wrapping on smaller screens
+  color: #fff; // Ensure text color is white on dark
+
+  @media (min-width: 600px) {
+    justify-content: space-between; // Only space out on larger screens
+    text-align: left; // Align text left for large screens
   }
-  
-  .rightSection {
-    .snsIcons {
-      margin-top: 1rem;
-      display: flex;
-      justify-content: center; // Center icons
-      gap: 1rem;
-  
-      a {
-        img {
-          width: 24px;
-          height: 24px;
-        }
+}
+
+.leftSection, .rightSection {
+  margin-bottom: 1.5rem; // Add spacing between sections for smaller screens
+
+  .logo {
+    width: 120px;
+    height: auto;
+    margin: 0 auto; // Center the logo
+  }
+}
+
+.rightSection {
+  .snsIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; // Center icons
+    gap: 1rem;
+
+    a {
+      img {
+        width: 24px;
+        height: 24px;
+        filter: none; // Ensure SNS icons are not inverted
       }
     }
   }
-  
+}

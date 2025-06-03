@@ -1,15 +1,45 @@
 {
-    "logoAlt": "企業ロゴ",
-    "copyright": "All Rights Reserved.",
-    "companyInfo": {
-      "address": "東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F－C",
-      "email": "traveling.tokyo10@gmail.com",
-      "phone": "+81-90-1234-5678"
-    },
-    "sns": {
-      "getYourGuideAlt": "GetYourGuide",
-      "tripAdvisorAlt": "TripAdvisor",
-      "instagramAlt": "Instagram"
+  "logoAlt": "企業ロゴ",
+  "copyright": "All Rights Reserved.",
+  "companyInfo": {
+    "address": "東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F－C",
+    "email": "traveling.tokyo10@gmail.com",
+    "phone": "+81-90-1234-5678"
+  },
+  "sns": {
+    "getYourGuideAlt": "GetYourGuide",
+    "tripAdvisorAlt": "TripAdvisor",
+    "instagramAlt": "Instagram"
+  },
+   "recognition": {
+    "recommendedByHeading": "掲載メディア",
+    "recommendedByDescription": "世界中の主要メディアに掲載されました！",
+    "recommendedLogos": [
+      { "src": "partner-yakiniku.jpeg", "alt": "CNN Travel" },
+      { "src": "partner-yakiniku.jpeg", "alt": "Forbes" },
+      { "src": "partner-yakiniku.jpeg", "alt": "Go Tokyo" },
+      { "src": "partner-yakiniku.jpeg", "alt": "Time Out Tokyo" },
+      { "src": "partner-yakiniku.jpeg", "alt": "トリップアドバイザー掲載" }
+    ],
+    "achievementsHeading": "受賞歴",
+    "tripadvisor": {
+       "listing1": {
+           "reviews": "3,300件以上の口コミ",
+           "name": "マジカルトリップ東京",
+           "ratingText": "⭐⭐⭐⭐⭐",
+           "category": "ナイトライフ 第1位"
+       },
+       "listing2": {
+          "reviews": "4,100件以上の口コミ",
+           "name": "マジカルトリップ東京",
+           "ratingText": "⭐⭐⭐⭐⭐",
+           "category": "ナイトライフ 第1位"
+       },
+       "awardsHeading": "受賞",
+       "awardBadges": [
+           { "src": "award_travelers_choice.png", "alt": "トラベラーズチョイス" },
+           { "src": "award_travelers_choice.png", "alt": "エクセレンス認証" }
+       ]
     }
   }
-  
+}

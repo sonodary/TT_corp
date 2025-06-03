@@ -1,57 +1,116 @@
 {
-    "header": "Company",
-    "mission": {
-      "title": "Mission",
-      "bold": "Inspiring a new generation of travel enthusiasts across Japan and beyond.",
-      "description": "We strive to connect local communities with global explorers, fostering cultural exchange and sustainable tourism. Our mission is to create immersive travel experiences that enrich minds and spark curiosity about Japan’s unique heritage."
-    },
-    "team": {
-      "title": "Team",
-      "members": [
+  "header": "About Us",
+  "message": {
+    "heading": "Message from the Representative",
+    "paragraph1": "We founded Traveling Tokyo with a deep-seated passion to share the unparalleled charm and authentic culture of Japan with the world.",
+    "paragraph2": "Drawing from extensive overseas experience and the global perspective gained from studies at UCLA, our journey into entrepreneurship was driven by a desire to create unforgettable experiences that go beyond typical tourism, connecting travelers with the heart and soul of Tokyo and Japan.",
+    "photo": "/assets/images/team/founder_photo.jpg"
+  },
+  "philosophy": {
+    "heading": "Our Philosophy",
+    "missionHeading": "Mission",
+    "missionText": "To deliver unforgettable 'Japan experiences' that stay with you long after your trip.",
+    "visionHeading": "Vision",
+    "visionText": "To become the leading brand from Tokyo recognized globally for providing 'the best experiences,' where the name 'Traveling Tokyo' instantly evokes incredible memories for people worldwide.",
+    "valuesHeading": "Core Values",
+    "values": [
         {
-          "id": 1,
-          "name": "John Doe",
-          "position": "CEO",
-          "intro": "A visionary leader with 10+ years in tourism innovation. Passionate about building a global community.",
-          "photo": "/assets/images/company/team_1.jpg"
+          "title": "Speed is King",
+          "description": "Prioritize action and iteration over waiting for perfection. Prompt response is fundamental to building customer trust.",
+          "icon": "/assets/icons/speed.svg"
         },
         {
-          "id": 2,
-          "name": "Jane Smith",
-          "position": "COO",
-          "intro": "Expert in operations and strategic partnerships, ensuring seamless travel experiences for our customers.",
-          "photo": "/assets/images/company/team_2.jpg"
+          "title": "Challenge with Courage",
+          "description": "Embrace new areas, roles, and ideas. Our evolution is fueled by a positive attitude towards change and continuous challenge.",
+           "icon": "/assets/icons/challenge.svg"
         },
         {
-          "id": 3,
-          "name": "Takeshi Tanaka",
-          "position": "CTO",
-          "intro": "Leading our tech solutions, from AI-driven travel recommendations to dynamic booking platforms.",
-          "photo": "/assets/images/company/team_3.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Takeshi Tanaka",
-            "position": "CTO",
-            "intro": "Leading our tech solutions, from AI-driven travel recommendations to dynamic booking platforms.",
-            "photo": "/assets/images/company/team_3.jpg"
-          }
+          "title": "Own the Brand",
+          "description": "The trust placed in 'Traveling Tokyo' by others rests on your individual words and actions. Each of us embodies the brand.",
+           "icon": "/assets/icons/brand.svg" 
+        }
+      ]
+  },
+  "profile": {
+    "heading": "Company Profile",
+    "companyName": "Traveling Tokyo K.K.",
+    "representative": "Yota Koketsu",
+    "establishmentDate": "YYYY-MM-DD",
+    "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
+    "businessActivities": "Planning, development, and operation of inbound tours specializing in Japanese culture, food, and local experiences.",
+    "email": "info@travelingtokyo.jp",
+    "phone": "+81-90-1234-5678",
+    "transactionPlatformsHeading": "Transaction Platforms",
+    "transactionPlatforms": [
+       { "name": "TripAdvisor", "logo": "/assets/images/platforms/tripadvisor_logo.png", "link": "https://www.tripadvisor.com/" },
+       { "name": "Viator", "logo": "/assets/images/platforms/viator_logo.png", "link": "https://www.viator.com/" },
+       { "name": "GetYourGuide", "logo": "/assets/images/platforms/getyourguide_logo.png", "link": "https://www.getyourguide.com/" }
+    ],
+    "registrationHeading": "Travel Business Registration",
+    "registrationNumber": "Tokyo Metropolitan Governor Registered Travel Agency No. XXXX"
+  },
+  "achievements": {
+      "heading": "Achievements & Statistics",
+      "annualToursHeading": "Annual Tours Conducted",
+      "annualToursCount": "1,300+",
+      "annualToursIcon": "/assets/icons/tour_count.svg",
+      "totalParticipantsHeading": "Total Participants",
+      "totalParticipantsCount": "10,000+",
+      "totalParticipantsIcon": "/assets/icons/participant_count.svg", 
+      "nationalityDiversityHeading": "Nationality Diversity",
+      "nationalityDiversityCount": "From over 50 countries",
+      "nationalityDiversityIcon": "/assets/icons/nationality.svg", 
+      "reviewRatingHeading": "Review Ratings",
+      "averageRating": "4.9 / 5.0",
+      "platformReviewsHeading": "Reviews by Platform",
+      "platformReviews": [
+         { "platform": "TripAdvisor", "count": "1,200+", "link": "YOUR_TRIPADVISOR_REVIEWS_LINK" },
+         { "platform": "Viator", "count": "500+", "link": "YOUR_VIATOR_REVIEWS_LINK" },
+         { "platform": "GetYourGuide", "count": "300+", "link": "YOUR_GETYOURGUIDE_REVIEWS_LINK" }
       ]
     },
-    "about": {
-      "title": "About",
-      "info": {
-        "companyName": "Traveling Tokyo Inc.",
-        "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
-        "establishment": "Established in 2022",
-        "ceo": "John Doe",
-        "capital": "¥100,000,000",
-        "businessActivities": "Tour planning, inbound consulting, media and community operations"
-      }
+  "media": {
+    "heading": "Media Coverage",
+    "mentions": [
+      { "media": "Nikkei Shimbun", "date": "June 2024", "description": "Featured article on unique Tokyo experiences." },
+      { "media": "NHK 'Tokyo Cool!'", "date": "August 2023", "description": "Appearance highlighting our food tours." },
+      { "media": "Timeout Tokyo", "date": "March 2024", "description": "Listed as a top Tokyo tour operator." }
+    ]
+  },
+   "collaborations": {
+      "heading": "Collaboration Achievements",
+      "list": [
+         { "type": "Government/Tourism", "description": "Partnered with [Prefecture/City Tourism Dept] for promotional tours." },
+         { "type": "Corporate Training", "description": "Provided cultural tours for corporate training programs for [Company Name]." },
+         { "type": "International Schools", "description": "Organized group tours for students from [School Name]." }
+      ]
+   },
+    "implementedToursSummary": {
+       "heading": "Implemented Tours & Services",
+       "description": "Highlights of some of our most popular tours and services:",
+       "tourHighlights": [
+          { "name": "Shinjuku Food Tour", "stats": "Conducted over 500 times, consistently high ratings." },
+          { "name": "Tsukiji Outer Market Tour", "stats": "Known for high repeat customer rate." }
+       ]
     },
-    "contact": {
-      "title": "Contact Us",
-      "buttonLabel": "Contact US"
-    }
-  }
-  
+  "team": {
+    "title": "Our Team",
+     "members": [
+         {
+             "id": 1,
+             "name": "Team Member 1",
+             "position": "Founder & CEO",
+             "intro": "Brief introduction of Team Member 1.",
+             "photo": "/assets/images/team/member1.jpg" 
+         }
+     ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "buttonLabel": "Contact Us"
+  },
+   "recruitLink": {
+       "text": "Join Our Team",
+       "url": "YOUR_INDEED_OR_RECRUITMENT_PAGE_LINK" 
+   }
+}

@@ -14,17 +14,33 @@ import Footer from '../../components/Layout/Footer';
 import { Link } from 'react-router-dom';
 import styles from './Recruit.module.scss';
 
+// Update PositionItem if needed, but the focus is on the new WorkConditionItem
 interface PositionItem {
   id: number;
   title: string;
   description: string;
 }
 
+// Define interface for WorkConditionItem
+interface WorkConditionItem {
+    title: string;
+    details: string;
+}
+
 const Recruit: React.FC = () => {
   const { t } = useTranslation('recruit'); // "recruit" namespace
 
-  // Retrieve positions array from i18n
+  // Retrieve data from i18n
+  const header = t('header') as string;
+  const messageTitle = t('messageTitle') as string;
+  const messageBody = t('messageBody') as string;
+  const workConditionsTitle = t('workConditionsTitle') as string;
+  // Access workConditions as an array of objects
+  const workConditions: WorkConditionItem[] = t('workConditions', { returnObjects: true }) as WorkConditionItem[];
+  const openPositionsTitle = t('openPositionsTitle') as string;
   const positions: PositionItem[] = t('positions', { returnObjects: true }) as PositionItem[];
+  const ctaText = t('ctaText') as string;
+  const contactButtonLabel = t('contactButtonLabel') as string; // Assuming you'll add this to recruit.json
 
   return (
     <>
@@ -35,7 +51,7 @@ const Recruit: React.FC = () => {
         sx={{
             position: 'relative',
             height: { xs: '30vh', md: '40vh' }, // Smaller height for phones
-            background: `url('/assets/images/recruit/recruit_hero_bg.jpg') center/cover no-repeat`
+            background: `url('/assets/images/recruit/recruit_hero_bg.jpg') center/cover no-repeat` // Ensure this image exists
         }}
         >
         <Box
@@ -57,54 +73,44 @@ const Recruit: React.FC = () => {
                 textAlign: 'center'
             }}
             >
-            {t('header')}
+            {header}
             </Typography>
         </Box>
     </Box>
 
       <Container maxWidth="lg" sx={{ py: 8 }}>
         {/* Message Section */}
-        <Typography variant="h4" sx={{ color: '#c00', mb: 3 }}>
-          {t('messageTitle')}
+        <Typography variant="h4" sx={{ color: '#c00', mb: 3, textAlign: "center" }}>
+          {messageTitle}
         </Typography>
-        <Typography variant="body1" sx={{ mb: 5 }}>
-          {t('messageBody')}
+        <Typography variant="body1" sx={{ mb: 10 }}>
+          {messageBody}
         </Typography>
 
-        {/* Values Section */}
-        <Typography variant="h5" sx={{ fontWeight: 700, mb: 2 }}>
-          {t('valuesTitle')}
+        {/* Work Style & Conditions Section - Replaces Values Section */}
+        <Typography variant="h5" sx={{ fontWeight: 700, mb: 2, textAlign: "center"  }}>
+          {workConditionsTitle}
         </Typography>
-        <Grid2 container spacing={2} sx={{ mb: 4 }}>
-          <Grid2 size={{xs:12, md:4}}>
-            <Box className={styles.valueCard}>
-              <Typography variant="h6" sx={{ color: '#c00' }}>
-                {t('value1.title')}
-              </Typography>
-              <Typography variant="body2">{t('value1.description')}</Typography>
-            </Box>
-          </Grid2>
-          <Grid2 size={{xs:12, md:4}}>
-            <Box className={styles.valueCard}>
-              <Typography variant="h6" sx={{ color: '#c00' }}>
-                {t('value2.title')}
-              </Typography>
-              <Typography variant="body2">{t('value2.description')}</Typography>
-            </Box>
-          </Grid2>
-          <Grid2 size={{xs:12,md:4}}>
-            <Box className={styles.valueCard}>
-              <Typography variant="h6" sx={{ color: '#c00' }}>
-                {t('value3.title')}
-              </Typography>
-              <Typography variant="body2">{t('value3.description')}</Typography>
-            </Box>
-          </Grid2>
+        <Grid2 container spacing={3} sx={{ mb: 10 }}>
+          {workConditions.map((condition, index) => (
+            <Grid2 size={{xs:12, md:6}} key={index}>
+              <Box className={styles.conditionCard}>
+                {/* Assign custom class to title Typography */}
+                <Typography variant="h6" className={styles.conditionTitle}>
+                  {condition.title}
+                </Typography>
+                {/* Assign custom class to details Typography */}
+                <Typography variant="body2" className={styles.conditionDetails}>
+                  {condition.details}
+                </Typography>
+              </Box>
+            </Grid2>
+          ))}
         </Grid2>
 
         {/* Open Positions Section */}
-        <Typography variant="h5" sx={{ fontWeight: 700, mb: 2 }}>
-        {t('openPositionsTitle')}
+        <Typography variant="h5" sx={{ fontWeight: 700, mb: 2, textAlign: "center"  }}>
+        {openPositionsTitle}
         </Typography>
 
         <Box component="ul" sx={{ padding: 0, listStyle: 'none' }}>
@@ -134,7 +140,7 @@ const Recruit: React.FC = () => {
         {/* Contact CTA at the bottom */}
         <Box textAlign="center" sx={{ mt: 8 }}>
           <Typography variant="h5" sx={{ mb: 2 }}>
-            {t('ctaText')}
+            {ctaText}
           </Typography>
           <Button
             variant="contained"
@@ -142,7 +148,7 @@ const Recruit: React.FC = () => {
             component={Link}
             to="/contact"
           >
-            Contact Us
+            {contactButtonLabel}
           </Button>
         </Box>
       </Container>

@@ -1,12 +1,57 @@
-// src/pages/Recruit/Recruit.module.scss
+/* src/pages/Recruit/Recruit.module.scss */
 
 .heroSection {
-    position: relative;
+  position: relative;
+  height: 30vh; // Smaller height for phones, adjust as needed
+  overflow: hidden; // Ensures background image doesn't overflow
+  display: flex;
+  align-items: center;
+  justify-content: center; // Center content horizontally
+
+  @media (min-width: 600px) {
+      height: 40vh; // Larger height for PCs
   }
-  
-  .valueCard {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
+
+  .MuiBox-root { /* Target the direct child Box for overlay and content */
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.4); // Dark overlay
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
   }
-  
+
+  .MuiTypography-root { /* Style the Typography inside the hero */
+      text-align: center;
+  }
+}
+
+
+/* New styles for Work Style & Conditions cards */
+.conditionCard {
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff; // White background for cards on light grey section
+  height: 80%; // Make cards equal height in grid row
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; // Align content to the top
+  align-items: flex-start; // Align content to the left
+  text-align: left; // Ensure text is left-aligned
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); // Subtle shadow
+
+  /* Styles for the condition title */
+  .conditionTitle {
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #c00; /* Moved color from sx */
+  }
+
+  /* Styles for the condition details */
+  .conditionDetails {
+      color: #555; /* Moved color from sx */
+      line-height: 1.6;
+  }
+}

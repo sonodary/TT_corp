@@ -1,27 +1,86 @@
 {
-    "companySection": {
-      "title": "Leading Japan's Tourism to the Next Level",
-      "subtitle": "Immerse yourself in the vibrant culture and breathtaking landscapes that define Japan's unique charm. We aim to connect generations and foster a thriving tourism ecosystem.",
-      "buttonLabel": "More"
+  "hero": {
+        "catchphrase": "Experience the heart of Tokyo with all five senses.",
+        "subCatchphrase": "Unforgettable Food & Culture Tours in Japan's vibrant capital.",
+        "ctaButton": "Find Your Tour",
+        "ratingText": "As recommended by 99% of TripAdvisor users" 
     },
-    "businessSection": {
-      "title": "Our Services",
-      "description": "We provide end-to-end solutions for hotels, organize immersive optional tours, offer kimono rentals, and deliver comprehensive consulting services in tourism & inbound strategies. Our focus is to help businesses adapt and flourish in the evolving travel market.",
-      "buttonLabel": "More"
-    },
-    "newsSection": {
+  "slogan": {
+      "heading": "More Than Just Travel",
+      "text": "We offer authentic, immersive experiences that connect you with the soul of Japan and its fascinating culture. Our tours are designed to be unforgettable 'Japan experiences' that go beyond the typical tourist path."
+  },
+  "mainTours": {
+      "heading": "Our Featured Tours",
+      "learnMoreButton": "Learn More",
+      "viewAllButton": "View All Tours",
+      "loadingError": "Failed to load tours. Please try again later.",
+      "items": [
+          {
+              "id": "tour-shinjuku-food",
+              "name": "Shinjuku Food Tour",
+              "description": "Explore the hidden culinary gems of Shinjuku's backalleys and enjoy delicious local dishes.",
+              "image": "/assets/images/tours/shinjuku_food.jpg",
+              "link": "/tours/shinjuku-food"
+          },
+          {
+              "id": "tour-tsukiji",
+              "name": "Tsukiji Outer Market Tour",
+              "description": "Discover the vibrant atmosphere and fresh seafood of the famous Tsukiji Outer Market.",
+              "image": "/assets/images/tours/tsukiji_market.jpg",
+              "link": "/tours/tsukiji-market"
+          },
+           {
+              "id": "tour-imperial-palace",
+              "name": "Imperial Palace East Garden & Otemachi",
+              "description": "Step back in time and explore the history and beauty of the Imperial Palace East Garden.",
+              "image": "/assets/images/tours/imperial_palace.jpg",
+              "link": "/tours/imperial-palace"
+          }
+      ]
+  },
+  "reviews": {
+      "heading": "What Our Customers Say",
+      "loadingError": "Failed to load reviews.",
+      "viewAllButton": "Read More Reviews on TripAdvisor",
+      "items": [
+          {
+              "id": "review-1",
+              "rating": 5,
+              "comment": "Amazing experience! Our guide was knowledgeable and fun. Highly recommend!",
+              "author": "Satisfied Traveler"
+          },
+           {
+              "id": "review-2",
+              "rating": 5,
+              "comment": "A must-do in Tokyo! The food was incredible, and we learned so much about the culture.",
+              "author": "Foodie Explorer"
+          },
+           {
+              "id": "review-3",
+              "rating": 4,
+              "comment": "Great tour overall. Our guide was friendly, though the pace was a little fast.",
+              "author": "Culture Enthusiast"
+          }
+      ]
+  },
+  "companyStory": {
+      "heading": "Our Story",
+      "paragraph1": "Traveling Tokyo was founded with a deep passion for sharing the authentic beauty and rich culture of Japan with the world.",
+      "paragraph2": "Drawing from overseas experience and a background including studies at UCLA, our founder envisioned tours that offer genuine connections and unforgettable memories, highlighting the unique aspects of Japanese heritage.",
+      "learnMoreButton": "Learn More About Us"
+  },
+  "newsSection": {
       "title": "Latest News",
-      "description": "Stay updated with our new partnerships, expansions, and special events. Explore how we’re revolutionizing Japan’s travel industry one step at a time."
-    },
-    "recruitSection": {
+      "description": "Stay updated with our recent activities and announcements."
+  },
+  "recruitSection": {
       "title": "Join Our Team",
-      "description": "We’re looking for bright minds who are passionate about culture, travel, and innovation. Help us shape the future of tourism in Japan.",
-      "buttonLabel": "More"
-    },
-    "contactSection": {
+      "description": "Become a part of the Traveling Tokyo family and help us share the magic of Japan.",
+      "buttonLabel": "Careers"
+  },
+   "contactSection": {
       "title": "Get in Touch",
-      "description": "Interested in learning more about our work? Reach out to us for inquiries, partnerships, or press. We’d love to hear from you.",
+      "description": "Have questions or special requests? Contact us today!",
       "buttonLabel": "Contact Us"
     }
-  }
-  
+}
