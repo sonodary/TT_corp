@@ -11,7 +11,7 @@
     "missionHeading": "Mission",
     "missionText": "To deliver unforgettable 'Japan experiences' that stay with you long after your trip.",
     "visionHeading": "Vision",
-    "visionText": "To become the leading brand from Tokyo recognized globally for providing 'the best experiences,' where the name 'Traveling Tokyo' instantly evokes incredible memories for people worldwide.",
+    "visionText": "To become the No.1 brand from Tokyo, globally recognized for 'experiences.'",
     "valuesHeading": "Core Values",
     "values": [
         {
@@ -27,70 +27,72 @@
         {
           "title": "Own the Brand",
           "description": "The trust placed in 'Traveling Tokyo' by others rests on your individual words and actions. Each of us embodies the brand.",
-           "icon": "/assets/icons/brand.svg" 
+           "icon": "/assets/icons/brand.svg"
         }
       ]
   },
   "profile": {
     "heading": "Company Profile",
-    "companyName": "Traveling Tokyo K.K.",
+    "companyName": "Mediabound LLC",
     "representative": "Yota Koketsu",
-    "establishmentDate": "YYYY-MM-DD",
-    "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
-    "businessActivities": "Planning, development, and operation of inbound tours specializing in Japanese culture, food, and local experiences.",
-    "email": "info@travelingtokyo.jp",
-    "phone": "+81-90-1234-5678",
+    "establishmentDate": "March 2024",
+    "address": "Zenkoku Plaza, 1-4-18 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Japan",
+    "businessActivities": "Experiential inbound tour operator for foreign visitors to Japan.",
+    "email": "traveling.tokyo10@gmail.com",
+    "phone": "",
     "transactionPlatformsHeading": "Transaction Platforms",
     "transactionPlatforms": [
        { "name": "TripAdvisor", "logo": "/assets/images/platforms/tripadvisor_logo.png", "link": "https://www.tripadvisor.com/" },
        { "name": "Viator", "logo": "/assets/images/platforms/viator_logo.png", "link": "https://www.viator.com/" },
-       { "name": "GetYourGuide", "logo": "/assets/images/platforms/getyourguide_logo.png", "link": "https://www.getyourguide.com/" }
+       { "name": "GetYourGuide", "logo": "/assets/images/platforms/getyourguide_logo.png", "link": "https://www.getyourguide.com/" },
+       { "name": "Klook", "logo": "/assets/images/platforms/klook_logo.png", "link": "https://www.klook.com/" }
     ],
     "registrationHeading": "Travel Business Registration",
-    "registrationNumber": "Tokyo Metropolitan Governor Registered Travel Agency No. XXXX"
+    "registrationNumber": ""
   },
   "achievements": {
       "heading": "Achievements & Statistics",
-      "annualToursHeading": "Annual Tours Conducted",
-      "annualToursCount": "1,300+",
+      "annualToursHeading": "Monthly Visitors",
+      "annualToursCount": "Approx. 4,000 people",
       "annualToursIcon": "/assets/icons/tour_count.svg",
-      "totalParticipantsHeading": "Total Participants",
-      "totalParticipantsCount": "10,000+",
-      "totalParticipantsIcon": "/assets/icons/participant_count.svg", 
-      "nationalityDiversityHeading": "Nationality Diversity",
-      "nationalityDiversityCount": "From over 50 countries",
-      "nationalityDiversityIcon": "/assets/icons/nationality.svg", 
+      "totalParticipantsHeading": "Total Tour Participants",
+      "totalParticipantsCount": "50,000+ people",
+      "totalParticipantsIcon": "/assets/icons/participant_count.svg",
+      "nationalityDiversityHeading": "Partner Restaurants",
+      "nationalityDiversityCount": "30+ locations",
+      "nationalityDiversityIcon": "/assets/icons/nationality.svg",
       "reviewRatingHeading": "Review Ratings",
-      "averageRating": "4.9 / 5.0",
-      "platformReviewsHeading": "Reviews by Platform",
+      "averageRating": "Maintains an average review rating of 4.9+ across all platforms",
+      "platformReviewsHeading": "Total Review Count",
       "platformReviews": [
-         { "platform": "TripAdvisor", "count": "1,200+", "link": "YOUR_TRIPADVISOR_REVIEWS_LINK" },
-         { "platform": "Viator", "count": "500+", "link": "YOUR_VIATOR_REVIEWS_LINK" },
-         { "platform": "GetYourGuide", "count": "300+", "link": "YOUR_GETYOURGUIDE_REVIEWS_LINK" }
+         { "platform": "Viator, TripAdvisor, GYG, Klook combined", "count": "7,000+ reviews", "link": "" }
       ]
     },
   "media": {
     "heading": "Media Coverage",
     "mentions": [
-      { "media": "Nikkei Shimbun", "date": "June 2024", "description": "Featured article on unique Tokyo experiences." },
-      { "media": "NHK 'Tokyo Cool!'", "date": "August 2023", "description": "Appearance highlighting our food tours." },
-      { "media": "Timeout Tokyo", "date": "March 2024", "description": "Listed as a top Tokyo tour operator." }
+      { "media": "Instagram (@traveling.tokyo)", "date": "As of May 2025", "description": "185,000 followers, approx. 3.2 million monthly impressions, approx. 2 million monthly reach." }
     ]
   },
    "collaborations": {
       "heading": "Collaboration Achievements",
       "list": [
-         { "type": "Government/Tourism", "description": "Partnered with [Prefecture/City Tourism Dept] for promotional tours." },
-         { "type": "Corporate Training", "description": "Provided cultural tours for corporate training programs for [Company Name]." },
-         { "type": "International Schools", "description": "Organized group tours for students from [School Name]." }
+         { "type": "Other", "description": "Viator Awards 2025 Winner (Shibuya Food Tour)." },
+         { "type": "Other", "description": "March 2025: Collaboration with Tokyo Dome City." },
+         { "type": "Other", "description": "April 2025: Collaboration with J.League." },
+         { "type": "Other", "description": "Multiple tours selected as bestsellers on TripAdvisor & GetYourGuide." }
       ]
    },
     "implementedToursSummary": {
        "heading": "Implemented Tours & Services",
        "description": "Highlights of some of our most popular tours and services:",
        "tourHighlights": [
-          { "name": "Shinjuku Food Tour", "stats": "Conducted over 500 times, consistently high ratings." },
-          { "name": "Tsukiji Outer Market Tour", "stats": "Known for high repeat customer rate." }
+          { "name": "Shinjuku Food Tour 13 Dishes and 4 Eateries", "stats": "TripAdvisor / GYG Shinjuku area bestseller." },
+          { "name": "Shibuya Food Tour 13 Dishes and 4 Eateries", "stats": "Viator Awards 2025 Winner." },
+          { "name": "Tsukiji Fish Market Food and Walking tour", "stats": "GYG bestseller." },
+          { "name": "Imperial Palace Walking Tour", "stats": "" },
+          { "name": "Asakusa Walking Tour", "stats": "" },
+          { "name": "Ginza Authentic Food Tour", "stats": "" }
        ]
     },
   "team": {
@@ -98,10 +100,10 @@
      "members": [
          {
              "id": 1,
-             "name": "Team Member 1",
-             "position": "Founder & CEO",
-             "intro": "Brief introduction of Team Member 1.",
-             "photo": "/assets/images/team/member1.jpg" 
+             "name": "Yota Koketsu",
+             "position": "Representative",
+             "intro": "Born in 2000. Graduated from UCLA (University of California, Los Angeles) Global Studies in 2023. Grew up in multicultural environments, spending his childhood in Hong Kong, Kyoto, and the UK. After engaging in international business in the US, he returned to Japan and founded the company with the aim of delivering Japan's charm as an 'experience' to the world. He has realized a high-quality tourism experience model by optimizing SNS, OTA, and operations in-house. Founder of a tourism startup.",
+             "photo": "/assets/images/team/member1.jpg"
          }
      ]
   },
@@ -111,6 +113,6 @@
   },
    "recruitLink": {
        "text": "Join Our Team",
-       "url": "YOUR_INDEED_OR_RECRUITMENT_PAGE_LINK" 
+       "url": ""
    }
 }
