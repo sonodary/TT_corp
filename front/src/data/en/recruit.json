@@ -1,21 +1,31 @@
 {
-    "header": "Join Our Mission",
-    "messageTitle": "Goal",
-    "messageBody": "We aim to reshape Japan’s tourism industry by embracing local communities and international travelers alike. Join us in bridging cultures and creating unforgettable experiences for everyone.",
-    "valuesTitle": "Core Values",
-    "value1": {
-      "title": "Teamwork",
-      "description": "We believe that collaboration across diverse backgrounds fuels innovation."
+  "header": "Recruit",
+  "messageTitle": "Join Our Passionate Team",
+  "messageBody": "We are a dynamic team driven by a shared passion for creating unforgettable experiences in Tokyo. If you're looking for a challenging yet rewarding career, we invite you to explore opportunities with us.",
+  "workConditionsTitle": "Work Style & Conditions",
+  "workConditions": [
+    {
+      "title": "Flexible Work Hours",
+      "details": "We offer flexible working hours to accommodate personal circumstances and optimize work-life balance."
     },
-    "value2": {
-      "title": "Innovation",
-      "description": "We constantly challenge ourselves to think differently, adapt, and stay ahead."
+    {
+      "title": "Remote Work Options",
+      "details": "Depending on the role, remote work is available, promoting a diverse and geographically dispersed team."
     },
-    "value3": {
-      "title": "Global Mindset",
-      "description": "We embrace multiple perspectives and cultural exchanges to enrich our offerings."
+    {
+      "title": "Comprehensive Benefits",
+      "details": "Our package includes health insurance, transportation allowances, and performance-based bonuses."
     },
-    "openPositionsTitle": "Open Positions",
-    "ctaText": "Interested in working with us?"
-  }
-  
+    {
+      "title": "Professional Development",
+      "details": "Opportunities for continuous learning through workshops, language training, and cultural immersion programs."
+    },
+    {
+      "title": "Inclusive Environment",
+      "details": "We foster a diverse and inclusive workplace where every voice is heard and respected."
+    }
+  ],
+  "openPositionsTitle": "Open Positions",
+  "ctaText": "Ready to make an impact? Contact us today!",
+  "contactButtonLabel": "Contact us"
+}

@@ -2,15 +2,196 @@
 /* src/pages/Company/Company.module.scss */
 
 .heroSection {
-    .heroOverlay {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.4); /* optional darker overlay */
-      display: flex;
-      align-items: center;
-      padding: 2rem;
-    }
+  /* Existing styles */
+  .heroOverlay {
+    position: absolute; // Use absolute position to cover the parent
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* optional darker overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center; // Center content horizontally
+    padding: 2rem;
+  }
+  .MuiTypography-root { // Style the Typography inside the hero
+     text-align: center;
+  }
+}
+
+/* Generic section padding */
+.section {
+  padding: 4rem 0; // Default vertical padding for sections
+  /* Add background colors in Home.tsx or specific classes if needed */
+}
+
+/* Style for main section headings */
+.sectionHeading {
+  font-size: 2.5rem; // Adjust font size as needed
+  margin-bottom: 2rem; // Space below heading
+  text-align: center; // Ensure headings are centered
+  @media (min-width: 600px) {
+      font-size: 3rem; // Slightly larger on bigger screens
+      margin-bottom: 3rem;
+  }
+}
+
+
+/* Representative Message Section */
+.messageContent {
+  display: flex;
+  flex-direction: column; // Stack photo and text vertically by default
+  align-items: center; // Center content horizontally when stacked
+  gap: 2rem; // Space between photo and text when stacked
+
+  @media (min-width: 768px) { // Adjust breakpoint (e.g., 768px for tablets and up)
+      flex-direction: row; // Arrange photo on left, text on right
+      align-items: flex-start; // Align items to the top
+      gap: 4rem; // Space between photo and text when side-by-side
+  }
+}
+
+.founderPhoto {
+  width: 150px; // Adjust the size of the founder's photo
+  height: auto; // Maintain aspect ratio
+  border-radius: 8px; // Optional: Add rounded corners
+  object-fit: cover; // Ensure the image covers the area
+  flex-shrink: 0; // Prevent the photo from shrinking
+
+  @media (min-width: 768px) {
+      width: 200px; // Make photo a bit larger on wider screens
+  }
+}
+
+.messageText {
+  // Styles for the container holding the message paragraphs
+  flex-grow: 1; // Allow the text container to grow and take up available space
+  text-align: center; // Center text by default
+
+  @media (min-width: 768px) {
+      text-align: left; // Align text to the left when side-by-side
   }
 
-  
+  /* Style the heading and paragraphs within messageText if needed */
+  h2, p {
+      // Adjust spacing or appearance if needed
+  }
+}
+/* Uses .section and .sectionHeading - add specific styles if needed */
+
+
+/* Mission, Vision, Values Section */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+.valueItem {
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff; // White background for value items on grey band
+  height: 100%; // Make items equal height
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // Center content vertically
+}
+
+.valueIcon {
+  width: 30px; // Adjusted size - adjust as needed
+  height: auto; // Maintain aspect ratio
+  display: block; // Treat the image as a block element
+  margin: 0 auto; // Set horizontal margins to auto to center the block element
+  margin-bottom: 1rem; // Space below the icon (keep existing if needed)
+  // align-items: center; // Removed this line as it's not applicable here
+}
+
+.valueTextContent {
+  text-align: left; // Align text inside this box to the left
+  width: 100%; // Make this box take the full width of its parent (.valueItem)
+  margin-top: 1rem; // Space between the icon and the text content - Adjust as needed
+  // You can add padding or other styles here
+}
+
+/* Company Profile Section */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+.platformLogos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; // Space between logos
+  justify-content: center; // Center logos horizontally
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.platformLogo {
+  height: 7rem; // Adjust logo size
+  width: auto;
+}
+
+
+/* Achievements & Statistics Section */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+.achievementStat {
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff; // White background for stats on potential grey band
+  height: 100%; // Make stat boxes equal height
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievementIcon {
+  width: 40px; // Example default size - adjust as needed
+  height: auto; // Maintain aspect ratio
+  margin-bottom: 0.5rem; // Space below the icon
+}
+
+/* Media Coverage Section */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+.mediaMention {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #fff; // White background for mentions on potential grey band
+}
+
+
+/* Collaboration Achievements Section */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+.collaborationItem {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #fff; // White background for items on potential grey band
+}
+
+
+/* Implemented Tours/Services Summary */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+.tourHighlightItem {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+   background-color: #fff; // White background for items on potential grey band
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* Team Section */
+/* Uses .section and .sectionHeading - add specific styles if needed */
+
+
+/* Recruitment Link Section */
+/* Uses .section - add specific styles if needed */
+
+
+/* Contact Section */
+/* Uses .section - add specific styles if needed */

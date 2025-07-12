@@ -1,29 +1,86 @@
 {
-    "companySection": {
-      "title": "本物の体験を提供する",
-      "subtitle": "訪日外国人旅行客のニーズや期待は単なる観光地の訪問から、より深い文化体験やパーソナライズされたサービスへと旅行のスタイルも大きく進化しています。このような変化に対応し、訪日外国人旅行者に対して『本物』の情報と体験を提供するために、Mediaboundはデジタルマーケティング戦略を駆使して、常に進化し続けています。",
-      "buttonLabel": "More"
+  "hero": {
+        "catchphrase": "五感で味わう、東京の今。",
+        "subCatchphrase": "東京の活気あふれる街で、忘れられない食と文化の体験を。",
+        "ctaButton": "ツアーを探す",
+        "ratingText": "トリップアドバイザーユーザーの99%が推奨"
     },
-    "businessSection": {
-      "title": "事業内容",
-      "description": "ホテル向けの包括的なソリューションを提供し、没入型のオプショナルツアーを企画し、着物レンタルを行い、観光とインバウンド戦略に関する包括的なコンサルティングサービスを提供しています。変化する旅行市場に適応し、繁栄するための支援を行っています。",
-      "buttonLabel": "More"
-    },
-    "newsSection": {
-      "title": "最新ニュース",
-      "description": "新しいパートナーシップや事業拡大、特別イベントについての情報をお届けします。私たちがどのようにして日本の旅行業界を一歩一歩改革しているかをご覧ください。",
-      "buttonLabel": "View all"
-    },
-    "recruitSection": {
+  "slogan": {
+      "heading": "単なる旅行以上の体験を",
+      "text": "私たちは、日本の真の美しさや豊かな文化と心から繋がる、没入感あふれる本物の体験を提供しています。私たちのツアーは、一般的な観光ルートを超え、心に残る「日本体験」となるよう設計されています。"
+  },
+   "mainTours": {
+      "heading": "おすすめツアー",
+      "learnMoreButton": "詳しく見る",
+      "viewAllButton": "全てのツアーを見る",
+       "loadingError": "ツアーの読み込みに失敗しました。しばらくしてから再度お試しください。",
+      "items": [
+          {
+              "id": "tour-shinjuku-food",
+              "name": "新宿フードツアー",
+              "description": "新宿の隠れた路地の美食を探訪し、美味しい地元料理を楽しみます。",
+              "image": "/assets/images/tours/shinjuku_food.jpg",
+              "link": "/tours/shinjuku-food"
+          },
+          {
+              "id": "tour-tsukiji",
+              "name": "築地場外市場ツアー",
+              "description": "活気あふれる雰囲気と新鮮なシーフードで有名な築地場外市場を発見します。",
+              "image": "/assets/images/tours/tsukiji_market.jpg",
+              "link": "/tours/tsukiji-market"
+          },
+           {
+              "id": "tour-imperial-palace",
+              "name": "皇居東御苑・大手町ツアー",
+              "description": "時間を遡り、皇居東御苑の歴史と美しさを探訪します。",
+              "image": "/assets/images/tours/imperial_palace.jpg",
+              "link": "/tours/imperial-palace"
+          }
+      ]
+  },
+  "reviews": {
+      "heading": "お客様の声",
+      "loadingError": "口コミの読み込みに失敗しました。",
+      "viewAllButton": "トリップアドバイザーでもっと見る",
+      "items": [
+          {
+              "id": "review-1",
+              "rating": 5,
+              "comment": "素晴らしい体験でした！ガイドさんは知識豊富で楽しかったです。強くお勧めします！",
+              "author": "満足した旅行者"
+          },
+           {
+              "id": "review-2",
+              "rating": 5,
+              "comment": "東京で絶対に体験すべきツアー！食事が素晴らしく、文化について多くのことを学べました。",
+              "author": "食通の探検家"
+          },
+           {
+              "id": "review-3",
+              "rating": 4,
+              "comment": "全体的に素晴らしいツアーでした。ガイドさんはフレンドリーでしたが、少しペースが速かったです。",
+              "author": "文化愛好家"
+          }
+      ]
+  },
+  "companyStory": {
+      "heading": "私たちのストーリー",
+      "paragraph1": "Traveling Tokyoは、日本の本物の美しさと豊かな文化を世界に共有したいという深い情熱から設立されました。",
+      "paragraph2": "海外での経験やUCLAでの研究を含むバックグラウンドを活かし、創設者は日本のユニークな側面を強調し、本物の繋がりと忘れられない思い出を提供するツアーを構想しました。",
+      "learnMoreButton": "会社概要を見る"
+  },
+  "newsSection": {
+      "title": "最新のお知らせ",
+      "description": "最新の活動や発表をご確認ください。"
+  },
+  "recruitSection": {
       "title": "採用情報",
-      "description": "文化、旅行、イノベーションに情熱を持つ才能を求めています。日本の観光の未来を共に形作りましょう。",
-      "buttonLabel": "More"
-    },
-    "contactSection": {
+      "description": "Traveling Tokyoファミリーの一員となり、日本の魅力を共有するお手伝いをしませんか。",
+      "buttonLabel": "採用情報"
+  },
+  "contactSection": {
       "title": "お問い合わせ",
-      "description": "私たちの取り組みについてもっと知りたいですか？お問い合わせ、パートナーシップ、またはプレスに関するご連絡をお待ちしています。",
-      "buttonLabel": "Contact"
+      "description": "ご質問や特別なリクエストがありますか？今すぐお問い合わせください！",
+      "buttonLabel": "お問い合わせ"
     }
-  }
-  
-  
+}

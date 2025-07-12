@@ -1,57 +1,118 @@
 {
-    "header": "Company",
-    "mission": {
-      "title": "Mission",
-      "bold": "日本や世界中で新しい世代の旅行愛好家をインスパイアする。",
-      "description": "地域社会と世界中の旅行者をつなぎ、文化交流と持続可能な観光を促進します。私たちのミッションは、日本のユニークな遺産についての好奇心を刺激し、心を豊かにする没入型の旅行体験を創造することです。地域社会と世界中の旅行者をつなぎ、文化交流と持続可能な観光を促進します。私たちのミッションは、日本のユニークな遺産についての好奇心を刺激し、心を豊かにする没入型の旅行体験を創造することです。"
-    },
-    "team": {
-      "title": "Team",
-      "members": [
+  "header": "会社概要",
+  "message": {
+    "heading": "代表メッセージ",
+    "paragraph1": "私たちTraveling Tokyoは、日本の比類なき魅力と本物の文化を世界と分かち合いたいという深い情熱を持って創業しました。",
+    "paragraph2": "広範な海外での経験と、UCLAでの学びから得た国際的な視点を活かし、単なる観光を超えた忘れられない体験を創造することを目指しています。旅を通して東京と日本の心髄と魂に触れる繋がりを提供することが、私たちの起業の原動力です。",
+    "photo": "/assets/images/team/founder_photo.jpg"
+  },
+  "philosophy": {
+    "heading": "私たちの理念",
+    "missionHeading": "ミッション",
+    "missionText": "記憶に残る“日本体験”を届ける",
+    "visionHeading": "ビジョン",
+    "visionText": "「体験」という言葉で、世界に認知される東京発のNo.1ブランドになる",
+    "valuesHeading": "社内バリュー（Core Values）",
+    "values": [
         {
-          "id": 1,
-          "name": "Yota Koketsu",
-          "position": "代表取締役社長",
-          "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業後、ロサンゼルスにて現地就職。退社後に起業したMediabound Inc.の代表社員。幼少期に香港やイギリスのグローバルな環境で過ごす。ガイド業を展開・拡大中。",
-          "photo": "/assets/images/company/team_1.jpg"
+          "title": "Speed is King",
+          "description": "完璧を待つより、まずやって改善する。早い対応は、お客様への信頼そのものです。",
+          "icon": "/assets/icons/speed.svg"
         },
         {
-          "id": 2,
-          "name": "Ryota Matsunaga",
-          "position": "共同創業者",
-          "intro": "Grinnell College Computer Science学部卒業。Mediabound Inc.の共同創業者。幼少期は、香港、上海、オーストラリアとインターナショナルな環境に身を置く。インバウンドガイドメディア「Traveling Tokyo」にて、90日でフォロワー5万人、PV数500万回を達成。",
-          "photo": "/assets/images/company/team_2.jpg"
+          "title": "Challenge with Courage",
+          "description": "新しいエリア、新しい役割、新しいアイデア。変化に前向きでいることが、私たちの進化をつくります。",
+           "icon": "/assets/icons/challenge.svg"
         },
         {
-          "id": 3,
-          "name": "Doren Mansbacher",
-          "position": "取締役",
-          "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業。早稲田大学留学。Mediabound創業時にジョイン。",
-          "photo": "/assets/images/company/team_3.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Naoya Toyokawa",
-            "position": "執行役員",
-            "intro": "カリフォルニア大学ロサンゼルス校(UCLA)卒業。",
-            "photo": "/assets/images/company/team_3.jpg"
-          }
+          "title": "Own the Brand",
+          "description": "「Traveling Tokyoは信頼できる」と言ってもらえるかは、あなたの一言・一行動にかかっています。",
+           "icon": "/assets/icons/brand.svg"
+        }
+      ]
+  },
+  "profile": {
+    "heading": "会社概要",
+    "companyName": "Mediabound合同会社（Mediabound LLC）",
+    "representative": "纐纈 陽太",
+    "establishmentDate": "2024年3月",
+    "address": "東京都新宿区西新宿1-4-18 全研プラザ",
+    "businessActivities": "訪日外国人向けの体験型インバウンドツアー事業",
+    "email": "traveling.tokyo10@gmail.com",
+    "phone": "",
+    "transactionPlatformsHeading": "取引プラットフォーム",
+    "transactionPlatforms": [
+       { "name": "トリップアドバイザー", "logo": "/assets/images/platforms/tripadvisor_logo.png", "link": "https://www.tripadvisor.jp/" },
+       { "name": "ビアター", "logo": "/assets/images/platforms/viator_logo.png", "link": "https://www.viator.com/" },
+       { "name": "ゲットユアガイド", "logo": "/assets/images/platforms/getyourguide_logo.jp", "link": "https://www.getyourguide.jp/" },
+       { "name": "Klook", "logo": "/assets/images/platforms/klook_logo.png", "link": "https://www.klook.com/" }
+    ],
+    "registrationHeading": "旅行業登録",
+    "registrationNumber": ""
+  },
+   "achievements": {
+      "heading": "実績・統計",
+      "annualToursHeading": "月間集客数",
+      "annualToursCount": "約4,000人",
+      "annualToursIcon": "/assets/icons/tour_count.svg",
+      "totalParticipantsHeading": "累計ツアー参加者数",
+      "totalParticipantsCount": "50,000人以上",
+      "totalParticipantsIcon": "/assets/icons/participant_count.svg",
+      "nationalityDiversityHeading": "提携飲食店数",
+      "nationalityDiversityCount": "30店舗以上",
+      "nationalityDiversityIcon": "/assets/icons/nationality.svg",
+      "reviewRatingHeading": "レビュー評価",
+      "averageRating": "全プラットフォームで平均レビュー評価4.9以上を維持",
+      "platformReviewsHeading": "累計レビュー数",
+      "platformReviews": [
+         { "platform": "Viator・TripAdvisor・GYG・Klook合算", "count": "7,000件以上", "link": "" }
       ]
     },
-    "about": {
-      "title": "About",
-      "info": {
-        "companyName": "Mediabound 合同会社",
-        "address": "東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F－C",
-        "establishment": "2024年設立",
-        "ceo": "纐纈陽太",
-        "capital": "1億円",
-        "businessActivities": "ツアー企画・運営・販売、インバウンドコンサルティング、メディア運営"
-      }
+  "media": {
+    "heading": "メディア掲載歴",
+    "mentions": [
+      { "media": "Instagram（@traveling.tokyo）", "date": "2025年5月時点", "description": "フォロワー18.5万人、月間インプレッション約320万回、月間リーチ数約200万人。" }
+    ]
+  },
+   "collaborations": {
+      "heading": "連携実績",
+      "list": [
+         { "type": "", "description": "2025年 Viator Awards 受賞（Shibuya Food Tour）。" },
+         { "type": "", "description": "2025年3月：東京ドームシティとコラボレーション実施。" },
+         { "type": "", "description": "2025年4月：Jリーグとコラボレーション実施。" },
+         { "type": "", "description": "TripAdvisor & GetYourGuideで複数ツアーがベストセラー選出。" }
+      ]
+   },
+   "implementedToursSummary": {
+       "heading": "導入ツアー・サービス紹介",
+       "description": "人気の代表的なツアーやサービスの一部をご紹介します：",
+       "tourHighlights": [
+          { "name": "Shinjuku Food Tour 13 Dishes and 4 Eateries", "stats": "TripAdvisor / GYG 新宿エリアベストセラー。" },
+          { "name": "Shibuya Food Tour 13 Dishes and 4 Eateries", "stats": "2025年 Viator Awards受賞。" },
+          { "name": "Tsukiji Fish Market Food and Walking tour", "stats": "GYGベストセラー。" },
+          { "name": "Imperial Palace Walking Tour", "stats": "" },
+          { "name": "Asakusa Walking Tour", "stats": "" },
+          { "name": "Ginza Authentic Food Tour", "stats": "" }
+       ]
     },
-    "contact": {
-      "title": "Contact",
-      "buttonLabel": "お問い合わせはこちら"
-    }
-  }
-  
+  "team": {
+    "title": "私たちのチーム",
+     "members": [
+         {
+             "id": 1,
+             "name": "纐纈 陽太",
+             "position": "代表者",
+             "intro": "2000年生まれ。2023年 UCLA（カリフォルニア大学ロサンゼルス校）Global Studies卒業。幼少期を香港・京都・イギリスで過ごし、多文化環境で育つ。米国で国際ビジネスに従事後、日本の魅力を“体験”として世界へ届けるべく帰国・起業。SNS×OTA×運営をすべてを自社で最適化した高品質な観光体験モデルを実現。観光系スタートアップの創業者。",
+             "photo": "/assets/images/team/member1.jpg"
+         }
+     ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "buttonLabel": "お問い合わせはこちら"
+  },
+  "recruitLink": {
+       "text": "採用情報を見る",
+       "url": ""
+   }
+}

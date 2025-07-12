@@ -1,57 +1,118 @@
 {
-    "header": "Company",
-    "mission": {
-      "title": "Mission",
-      "bold": "Inspiring a new generation of travel enthusiasts across Japan and beyond.",
-      "description": "We strive to connect local communities with global explorers, fostering cultural exchange and sustainable tourism. Our mission is to create immersive travel experiences that enrich minds and spark curiosity about Japan’s unique heritage."
-    },
-    "team": {
-      "title": "Team",
-      "members": [
+  "header": "About Us",
+  "message": {
+    "heading": "Message from the Representative",
+    "paragraph1": "We founded Traveling Tokyo with a deep-seated passion to share the unparalleled charm and authentic culture of Japan with the world.",
+    "paragraph2": "Drawing from extensive overseas experience and the global perspective gained from studies at UCLA, our journey into entrepreneurship was driven by a desire to create unforgettable experiences that go beyond typical tourism, connecting travelers with the heart and soul of Tokyo and Japan.",
+    "photo": "/assets/images/team/founder_photo.jpg"
+  },
+  "philosophy": {
+    "heading": "Our Philosophy",
+    "missionHeading": "Mission",
+    "missionText": "To deliver unforgettable 'Japan experiences' that stay with you long after your trip.",
+    "visionHeading": "Vision",
+    "visionText": "To become the No.1 brand from Tokyo, globally recognized for 'experiences.'",
+    "valuesHeading": "Core Values",
+    "values": [
         {
-          "id": 1,
-          "name": "John Doe",
-          "position": "CEO",
-          "intro": "A visionary leader with 10+ years in tourism innovation. Passionate about building a global community.",
-          "photo": "/assets/images/company/team_1.jpg"
+          "title": "Speed is King",
+          "description": "Prioritize action and iteration over waiting for perfection. Prompt response is fundamental to building customer trust.",
+          "icon": "/assets/icons/speed.svg"
         },
         {
-          "id": 2,
-          "name": "Jane Smith",
-          "position": "COO",
-          "intro": "Expert in operations and strategic partnerships, ensuring seamless travel experiences for our customers.",
-          "photo": "/assets/images/company/team_2.jpg"
+          "title": "Challenge with Courage",
+          "description": "Embrace new areas, roles, and ideas. Our evolution is fueled by a positive attitude towards change and continuous challenge.",
+           "icon": "/assets/icons/challenge.svg"
         },
         {
-          "id": 3,
-          "name": "Takeshi Tanaka",
-          "position": "CTO",
-          "intro": "Leading our tech solutions, from AI-driven travel recommendations to dynamic booking platforms.",
-          "photo": "/assets/images/company/team_3.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Takeshi Tanaka",
-            "position": "CTO",
-            "intro": "Leading our tech solutions, from AI-driven travel recommendations to dynamic booking platforms.",
-            "photo": "/assets/images/company/team_3.jpg"
-          }
+          "title": "Own the Brand",
+          "description": "The trust placed in 'Traveling Tokyo' by others rests on your individual words and actions. Each of us embodies the brand.",
+           "icon": "/assets/icons/brand.svg"
+        }
+      ]
+  },
+  "profile": {
+    "heading": "Company Profile",
+    "companyName": "Mediabound LLC",
+    "representative": "Yota Koketsu",
+    "establishmentDate": "March 2024",
+    "address": "Zenkoku Plaza, 1-4-18 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Japan",
+    "businessActivities": "Experiential inbound tour operator for foreign visitors to Japan.",
+    "email": "traveling.tokyo10@gmail.com",
+    "phone": "",
+    "transactionPlatformsHeading": "Transaction Platforms",
+    "transactionPlatforms": [
+       { "name": "TripAdvisor", "logo": "/assets/images/platforms/tripadvisor_logo.png", "link": "https://www.tripadvisor.com/" },
+       { "name": "Viator", "logo": "/assets/images/platforms/viator_logo.png", "link": "https://www.viator.com/" },
+       { "name": "GetYourGuide", "logo": "/assets/images/platforms/getyourguide_logo.png", "link": "https://www.getyourguide.com/" },
+       { "name": "Klook", "logo": "/assets/images/platforms/klook_logo.png", "link": "https://www.klook.com/" }
+    ],
+    "registrationHeading": "Travel Business Registration",
+    "registrationNumber": ""
+  },
+  "achievements": {
+      "heading": "Achievements & Statistics",
+      "annualToursHeading": "Monthly Visitors",
+      "annualToursCount": "Approx. 4,000 people",
+      "annualToursIcon": "/assets/icons/tour_count.svg",
+      "totalParticipantsHeading": "Total Tour Participants",
+      "totalParticipantsCount": "50,000+ people",
+      "totalParticipantsIcon": "/assets/icons/participant_count.svg",
+      "nationalityDiversityHeading": "Partner Restaurants",
+      "nationalityDiversityCount": "30+ locations",
+      "nationalityDiversityIcon": "/assets/icons/nationality.svg",
+      "reviewRatingHeading": "Review Ratings",
+      "averageRating": "Maintains an average review rating of 4.9+ across all platforms",
+      "platformReviewsHeading": "Total Review Count",
+      "platformReviews": [
+         { "platform": "Viator, TripAdvisor, GYG, Klook combined", "count": "7,000+ reviews", "link": "" }
       ]
     },
-    "about": {
-      "title": "About",
-      "info": {
-        "companyName": "Traveling Tokyo Inc.",
-        "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
-        "establishment": "Established in 2022",
-        "ceo": "John Doe",
-        "capital": "¥100,000,000",
-        "businessActivities": "Tour planning, inbound consulting, media and community operations"
-      }
+  "media": {
+    "heading": "Media Coverage",
+    "mentions": [
+      { "media": "Instagram (@traveling.tokyo)", "date": "As of May 2025", "description": "185,000 followers, approx. 3.2 million monthly impressions, approx. 2 million monthly reach." }
+    ]
+  },
+   "collaborations": {
+      "heading": "Collaboration Achievements",
+      "list": [
+         { "type": "Other", "description": "Viator Awards 2025 Winner (Shibuya Food Tour)." },
+         { "type": "Other", "description": "March 2025: Collaboration with Tokyo Dome City." },
+         { "type": "Other", "description": "April 2025: Collaboration with J.League." },
+         { "type": "Other", "description": "Multiple tours selected as bestsellers on TripAdvisor & GetYourGuide." }
+      ]
+   },
+    "implementedToursSummary": {
+       "heading": "Implemented Tours & Services",
+       "description": "Highlights of some of our most popular tours and services:",
+       "tourHighlights": [
+          { "name": "Shinjuku Food Tour 13 Dishes and 4 Eateries", "stats": "TripAdvisor / GYG Shinjuku area bestseller." },
+          { "name": "Shibuya Food Tour 13 Dishes and 4 Eateries", "stats": "Viator Awards 2025 Winner." },
+          { "name": "Tsukiji Fish Market Food and Walking tour", "stats": "GYG bestseller." },
+          { "name": "Imperial Palace Walking Tour", "stats": "" },
+          { "name": "Asakusa Walking Tour", "stats": "" },
+          { "name": "Ginza Authentic Food Tour", "stats": "" }
+       ]
     },
-    "contact": {
-      "title": "Contact Us",
-      "buttonLabel": "Contact US"
-    }
-  }
-  
+  "team": {
+    "title": "Our Team",
+     "members": [
+         {
+             "id": 1,
+             "name": "Yota Koketsu",
+             "position": "Representative",
+             "intro": "Born in 2000. Graduated from UCLA (University of California, Los Angeles) Global Studies in 2023. Grew up in multicultural environments, spending his childhood in Hong Kong, Kyoto, and the UK. After engaging in international business in the US, he returned to Japan and founded the company with the aim of delivering Japan's charm as an 'experience' to the world. He has realized a high-quality tourism experience model by optimizing SNS, OTA, and operations in-house. Founder of a tourism startup.",
+             "photo": "/assets/images/team/member1.jpg"
+         }
+     ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "buttonLabel": "Contact Us"
+  },
+   "recruitLink": {
+       "text": "Join Our Team",
+       "url": ""
+   }
+}

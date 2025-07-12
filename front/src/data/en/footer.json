@@ -1,15 +1,45 @@
 {
-    "logoAlt": "Company Logo",
-    "copyright": "All Rights Reserved.",
-    "companyInfo": {
-      "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
-      "email": "info@travelingtokyo.jp",
-      "phone": "+81-90-1234-5678"
-    },
-    "sns": {
-      "getYourGuideAlt": "GetYourGuide",
-      "tripAdvisorAlt": "TripAdvisor",
-      "instagramAlt": "Instagram"
+  "logoAlt": "Company Logo",
+  "copyright": "All Rights Reserved.",
+  "companyInfo": {
+    "address": "123 Tokyo Street, Minato-ku, Tokyo, Japan",
+    "email": "info@travelingtokyo.jp",
+    "phone": "+81-90-1234-5678"
+  },
+  "sns": {
+    "getYourGuideAlt": "GetYourGuide",
+    "tripAdvisorAlt": "TripAdvisor",
+    "instagramAlt": "Instagram"
+  },
+  "recognition": {
+    "recommendedByHeading": "Recommended By",
+    "recommendedByDescription": "Featured by top medias around the world!",
+    "recommendedLogos": [
+      { "src": "partner-yakiniku.jpeg", "alt": "CNN Travel" },
+      { "src": "partner-yakiniku.jpeg", "alt": "Forbes" },
+      { "src": "partner-yakiniku.jpeg", "alt": "Go Tokyo" },
+      { "src": "partner-yakiniku.jpeg", "alt": "Time Out Tokyo" },
+      { "src": "partner-yakiniku.jpeg", "alt": "TripAdvisor Recommended" }
+    ],
+    "achievementsHeading": "Our Achievements",
+    "tripadvisor": {
+       "listing1": {
+           "reviews": "Over 3,300 Reviews",
+           "name": "MagicalTrip Tokyo",
+           "ratingText": "⭐⭐⭐⭐⭐",
+           "category": "#1 Nightlife"
+       },
+       "listing2": {
+          "reviews": "Over 4,100 Reviews",
+           "name": "MagicalTrip Tokyo",
+           "ratingText": "⭐⭐⭐⭐⭐",
+           "category": "#1 Nightlife"
+       },
+       "awardsHeading": "Awarded",
+       "awardBadges": [
+           { "src": "award_travelers_choice.png", "alt": "Traveler's Choice Award" },
+           { "src": "award_travelers_choice.png", "alt": "Certificate of Excellence" }
+       ]
     }
   }
-  
+}

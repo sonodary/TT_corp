@@ -1,0 +1,74 @@
+{
+    "header": "Our Team",
+    "introSection": {
+        "heading": "Meet the Visionaries Behind Traveling Tokyo",
+        "paragraph1": "At Traveling Tokyo, we believe that truly experiencing a culture goes beyond seeing landmarks. It's about genuine connections, shared stories, and moments that resonate long after you've returned home.",
+        "paragraph2": "Our diverse team, driven by a shared passion for Japan and a commitment to authentic experiences, works tirelessly to craft tours that open doors to the heart and soul of Tokyo. Get to know the people who make your unforgettable journey possible."
+    },
+    "coreMembersSection": {
+        "heading": "Core Leadership",
+        "members": [
+            {
+                "id": "ceo-yota",
+                "name": "Yota Koketsu",
+                "position": "CEO & Founder",
+                "intro": "Born in 2000, Yota Koketsu graduated from UCLA with a degree in Global Studies in 2023. Having spent his childhood in Hong Kong, Kyoto, and the UK, he was raised in a truly multicultural environment. After working in international business in the United States, he returned to Japan with a vision to share the country's unique appeal through immersive experiences. As the founder of a tourism startup, Yota has successfully created a high-quality tourism experience model by optimizing SNS, OTA, and operations entirely in-house.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            },
+            {
+                "id": "co-founder-akari",
+                "name": "Akari Tanaka",
+                "position": "Co-founder & Chief Experience Officer",
+                "intro": "Akari co-founded Traveling Tokyo, driven by her extensive experience in hospitality and a profound love for Japanese traditions. She meticulously designs each tour to ensure seamless execution and unparalleled cultural immersion. Her focus on guest satisfaction and unique local interactions is what makes our tours truly special. Akari believes every traveler should leave with a deeper appreciation for Japan.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            },
+            {
+                "id": "coo-kenji",
+                "name": "Kenji Sato",
+                "position": "COO - Operations",
+                "intro": "Kenji oversees all operational aspects of Traveling Tokyo, ensuring every tour runs smoothly and efficiently. His meticulous planning and problem-solving skills guarantee a flawless experience for our guests. With a background in logistics and tourism management, Kenji is dedicated to maintaining the high standards of quality and reliability that define our brand.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            },
+            {
+                "id": "coo-yui",
+                "name": "Yui Nakamura",
+                "position": "COO - Marketing & Partnerships",
+                "intro": "Yui leads our marketing and partnership initiatives, connecting Traveling Tokyo with a global audience and collaborating with local businesses. Her creative vision and strategic thinking expand our reach and enhance our tour offerings. Yui is passionate about showcasing Japan's diverse attractions and building strong relationships within the tourism industry to enrich traveler experiences.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            }
+        ]
+    },
+    "guidesSection": {
+        "heading": "Our Amazing Guides",
+        "members": [
+            {
+                "id": "guide-1",
+                "name": "Hiroshi Yamada",
+                "position": "Senior Food Tour Guide",
+                "intro": "Hiroshi's passion for Japanese cuisine is infectious. He loves taking guests on culinary journeys through Tokyo's bustling neighborhoods, sharing stories behind each dish and introducing them to local vendors. His extensive knowledge of regional specialties ensures an authentic taste of Japan.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            },
+            {
+                "id": "guide-2",
+                "name": "Mai Suzuki",
+                "position": "Cultural & History Guide",
+                "intro": "Mai brings Japan's rich history and vibrant traditions to life. With a background in art history, she offers unique perspectives on temples, gardens, and traditional arts. Her engaging storytelling makes every historical site a captivating adventure.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            },
+            {
+                "id": "guide-3",
+                "name": "Taro Tanaka",
+                "position": "Nightlife & Entertainment Guide",
+                "intro": "Taro is your go-to guide for experiencing Tokyo's dynamic nightlife. From cozy izakayas to lively entertainment districts, he knows all the best spots. He ensures guests have a fun and safe evening, discovering the city's after-dark charm.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            },
+            {
+                "id": "guide-4",
+                "name": "Yuki Yoshida",
+                "position": "Market & Local Life Guide",
+                "intro": "Yuki specializes in tours that delve into the everyday life of Tokyo. She expertly navigates local markets, shares insights into Japanese customs, and helps guests truly feel like locals. Her friendly demeanor makes everyone feel welcome.",
+                "photo": "/assets/images/team/founder_photo.jpg"
+            }
+        ]
+    }
+}

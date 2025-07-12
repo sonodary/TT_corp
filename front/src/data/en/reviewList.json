@@ -1,0 +1,38 @@
+[
+    {
+        "id": "review-1",
+        "rating": 5,
+        "comment": "Absolutely fantastic tour! Our guide, Kenji, was incredibly knowledgeable and passionate. We discovered hidden gems we would never have found on our own. The food stops were all delicious!",
+        "author": "Sarah L., USA"
+    },
+    {
+        "id": "review-2",
+        "rating": 5,
+        "comment": "Highly recommend the Tsukiji tour! Fresh sushi in the morning was an unforgettable experience. Our guide expertly navigated the market and shared fascinating insights.",
+        "author": "David P., Canada"
+    },
+     {
+        "id": "review-3",
+        "rating": 5,
+        "comment": "More than just a tour, it was a cultural immersion. Learned so much about Japanese customs and history while exploring the beautiful Imperial Palace East Garden. Our guide made it truly engaging.",
+        "author": "Maria G., Spain"
+    },
+     {
+        "id": "review-4",
+        "rating": 4,
+        "comment": "Great value for money. Enjoyed trying various local foods. The meeting point was a bit confusing, but once the tour started, it was excellent.",
+        "author": "Tom K., Australia"
+    },
+    {
+        "id": "review-5",
+        "rating": 5,
+        "comment": "More than just a tour, it was a cultural immersion. Learned so much about Japanese customs and history while exploring the beautiful Imperial Palace East Garden. Our guide made it truly engaging.",
+        "author": "Maria G., Spain"
+    },
+     {
+        "id": "review-6",
+        "rating": 4,
+        "comment": "Great value for money. Enjoyed trying various local foods. The meeting point was a bit confusing, but once the tour started, it was excellent.",
+        "author": "Tom K., Australia"
+    }
+]

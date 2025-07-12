@@ -9,6 +9,7 @@ import NewsList from '../pages/News/NewsList';
 import NewsDetail from '../pages/News/NewsDetail';
 import Recruit from '../pages/Recruit/Recruit';
 import Contact from '../pages/Contact/Contact';
+import Team from "../pages/Team/Team"
 
 const AppRouter: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const AppRouter: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/company" element={<Company />} />
         <Route path="/business" element={<Business />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/news" element={<NewsList />} />
         <Route path="/news/:newsId" element={<NewsDetail />} />
         <Route path="/recruit" element={<Recruit />} />

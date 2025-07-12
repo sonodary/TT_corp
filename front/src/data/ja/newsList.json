@@ -1,0 +1,26 @@
+[
+    {
+      "id": "news-1",
+      "date": "2024-05-15",
+      "tag": "アップデート",
+      "title": "夏期ツアー日程を公開しました！",
+      "content": "夏シーズンの新たなツアー日程を発表いたします。今すぐ予約して席を確保しましょう！",
+      "image": "/assets/images/news/news_summer.jpg"
+    },
+    {
+      "id": "news-2",
+      "date": "2024-05-10",
+      "tag": "メディア",
+      "title": "「トラベル・ウィークリー」に掲載されました",
+      "content": "新宿フードツアーが、最近「東京で必見の体験」記事で取り上げられました。",
+      "image": "/assets/images/news/news_media.jpg"
+    },
+     {
+      "id": "news-3",
+      "date": "2024-05-01",
+      "tag": "イベント",
+      "title": "特別イベント：桜祭りツアーレポート",
+      "content": "桜祭りツアーでは素晴らしい時間を過ごしました。写真とハイライトをご覧ください！",
+      "image": "/assets/images/news/news_sakura.jpg"
+    }
+]

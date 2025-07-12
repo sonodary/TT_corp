@@ -21,6 +21,7 @@ import styles from './Header.module.scss';
 const navLinks = [
   { to: '/company', key: 'nav.company' },
   { to: '/business', key: 'nav.business' },
+  { to: '/team', key: 'nav.team'},
   { to: '/news', key: 'nav.news' },
   { to: '/recruit', key: 'nav.recruit' },
   { to: '/contact', key: 'nav.contact' }

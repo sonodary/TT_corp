@@ -96,7 +96,7 @@ const Business: React.FC = () => {
                   {item.description}
                 </Typography>
 
-                {/* External Link */}
+                {/* External Link
                 <Button
                   variant="outlined"
                   sx={{ color: '#c00', borderColor: '#c00' }}
@@ -105,7 +105,7 @@ const Business: React.FC = () => {
                   rel="noopener noreferrer"
                 >
                   More
-                </Button>
+                </Button> */}
               </Box>
             </Grid2>
           ))}
